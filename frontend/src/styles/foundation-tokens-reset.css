@@ -1,0 +1,204 @@
+/* foundation tokens reset.
+ * Cascade segment 1 of 5; keep wrapper import order unchanged.
+ */
+:root {
+  font-family: "Segoe UI Variable Text", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;
+  color: #f5f1ea;
+  background: #09090c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100dvh;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(125, 26, 72, 0.42), transparent 34rem),
+    linear-gradient(180deg, #0c0d11 0%, #07070a 48%, #0b0b10 100%);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid rgba(219, 72, 126, 0.58);
+  outline-offset: 3px;
+}
+
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: #d6547f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f0789d;
+}
+
+.page-shell {
+  width: min(1180px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 28px 0 64px;
+}
+
+.page-shell.full-bleed {
+  width: 100%;
+  padding: 0;
+}
+
+.pill,
+.panel-eyebrow,
+.section-heading span {
+  display: inline-flex;
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  padding: 7px 12px;
+  color: #eeb5c8;
+  background: rgba(255, 255, 255, 0.055);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.control-panel p,
+.section-heading p {
+  color: #a5a0aa;
+  line-height: 1.7;
+}
+
+.primary,
+.ghost,
+.pathway-card {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.primary {
+  margin-top: 24px;
+  padding: 14px 18px;
+  color: #171014;
+  background: #f7f1e9;
+  font-weight: 700;
+}
+
+.ghost {
+  padding: 10px 14px;
+  color: #ddd6df;
+  background: rgba(255, 255, 255, 0.045);
+  font-weight: 700;
+}
+
+.primary:active,
+.ghost:active,
+.pathway-card:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 34px;
+  align-items: start;
+}
+
+.control-panel {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  position: sticky;
+  top: 18px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.panel-brand {
+  padding: 2px 2px 14px;
+  color: #eeb5c8;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.control-panel h2,
+.section-heading h2,
+.path-header h2 {
+  margin: 12px 0 8px;
+  letter-spacing: 0;
+}
+
+.ghost:hover {
+  border-color: rgba(219, 72, 126, 0.62);
+  background: rgba(219, 72, 126, 0.16);
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: #c9c3cc;
+}
+
+.field select {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  padding: 11px 12px;
+  color: #f5f1ea;
+  background: #131219;
+}
+
+.field input {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  padding: 12px;
+  color: #f5f1ea;
+  background: #131219;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: 2px solid rgba(219, 72, 126, 0.42);
+  outline-offset: 2px;
+}
+
+.password-field {
+  position: relative;
+  display: grid;
+}
+
+.password-field input {
+  padding-right: 48px;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 8px;
+  color: #cbbfcb;
+  background: transparent;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,249 @@
+/* foundation navigation.
+ * Cascade segment 3 of 5; keep wrapper import order unchanged.
+ */
+
+.known-skills h3 {
+  margin: 0 0 10px;
+  font-size: 0.96rem;
+}
+
+.known-skills-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.known-skills-header h3 {
+  margin: 0;
+}
+
+.text-action {
+  border: 0;
+  padding: 0;
+  color: #eeb5c8;
+  background: transparent;
+  font-size: 0.84rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.text-action:hover {
+  color: #f5d5df;
+}
+
+.known-skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.known-skill-list span {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 999px;
+  padding: 7px 10px;
+  color: #f5d5df;
+  background: rgba(219,72,126,0.12);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.ready-note {
+  margin: 0;
+  color: #bcb5c0;
+  line-height: 1.6;
+}
+
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.action-row .primary,
+.action-row .ghost {
+  margin-top: 0;
+  padding: 12px 16px;
+}
+
+.optional-skills {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 0 16px;
+  background: rgba(255,255,255,0.035);
+}
+
+.optional-skills summary,
+.skill-gap-panel summary {
+  padding: 14px 0;
+  color: #f5d5df;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.pathway-card {
+  min-height: 136px;
+  display: grid;
+  align-content: space-between;
+  gap: 20px;
+  padding: 18px;
+  text-align: left;
+  color: #f5f1ea;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pathway-card:hover {
+  border-color: rgba(219, 72, 126, 0.72);
+  background: linear-gradient(135deg, rgba(219, 72, 126, 0.22), rgba(255,255,255,0.045));
+}
+
+.pathway-card span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.pathway-card p {
+  margin: 0;
+  color: #d0c9d3;
+  line-height: 1.5;
+}
+
+.pathway-card small {
+  color: #aaa4af;
+  line-height: 1.45;
+}
+
+.path-header {
+  display: block;
+}
+
+.dashboard-header {
+  display: grid;
+  gap: 10px;
+}
+
+.course-switcher {
+  display: grid;
+  gap: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px 0 16px;
+}
+
+.course-switcher-heading {
+  display: block;
+}
+
+.course-switcher-heading strong {
+  color: #f5f1ea;
+  font-size: 0.96rem;
+}
+
+.pathway-tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.pathway-tab {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  min-height: 46px;
+  padding: 10px 12px;
+  color: #cfc7d2;
+  background: rgba(255,255,255,0.05);
+  text-align: left;
+  font-weight: 700;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.pathway-tab:hover,
+.pathway-tab.active {
+  border-color: rgba(219, 72, 126, 0.72);
+  color: #f5f1ea;
+  background: rgba(219, 72, 126, 0.18);
+}
+
+.pathway-tab:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+.pathway-tab small {
+  color: #f1b9ca;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.course-slider {
+  animation: course-slide 240ms ease both;
+}
+
+.danger-zone {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 16px;
+}
+
+.danger-zone summary {
+  width: fit-content;
+  color: #aaa3ae;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.danger-zone p {
+  margin: 12px 0;
+  color: #8f8995;
+  line-height: 1.55;
+}
+
+.delete-pathway-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.danger-button {
+  border: 1px solid rgba(255, 94, 108, 0.32);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #ffc6cc;
+  background: rgba(255, 94, 108, 0.08);
+  font-weight: 700;
+}
+
+.danger-button:hover {
+  border-color: rgba(255, 94, 108, 0.58);
+  background: rgba(255, 94, 108, 0.14);
+}
+
+@keyframes course-slide {
+  from {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.path-header h2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+  margin: 0;
+}

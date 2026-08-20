@@ -1,0 +1,218 @@
+/* landing sections.
+ * Cascade segment 3 of 3; keep wrapper import order unchanged.
+ */
+
+.feature-card h3 {
+  margin: 14px 0 0;
+  color: var(--ink);
+  font-size: 1.08rem;
+}
+
+.feature-card p {
+  margin: 0;
+  color: var(--muted-light);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.stages-band {
+  overflow: hidden;
+}
+
+.stages-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.28;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at 50% 60%, #000, transparent 68%);
+  pointer-events: none;
+}
+
+.stages-band > * {
+  position: relative;
+  z-index: 1;
+}
+
+.stage-roadmap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--line-dark);
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.stage-roadmap-item {
+  min-height: 270px;
+  display: grid;
+  align-content: start;
+  gap: 18px;
+  border-right: 1px solid var(--line-dark);
+  padding: 30px 26px;
+}
+
+.stage-roadmap-item:last-child {
+  border-right: 0;
+}
+
+.stage-roadmap-item > span {
+  color: var(--violet);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.stage-roadmap-item h3 {
+  margin: 28px 0 0;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.stage-roadmap-item p {
+  margin: 0;
+  color: var(--muted-dark);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.showcase-band {
+  background: var(--white);
+}
+
+.showcase-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.18fr 0.82fr;
+  gap: 24px;
+}
+
+.showcase-frame {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  border: 1px solid var(--line-light);
+  background: var(--paper);
+}
+
+.showcase-frame img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top left;
+  border: 0;
+  border-radius: 0;
+  background: var(--ink);
+  box-shadow: none;
+}
+
+.showcase-frame figcaption {
+  display: grid;
+  gap: 7px;
+  padding: 22px 24px;
+  color: var(--muted-light);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.showcase-frame figcaption strong {
+  color: var(--ink);
+  font-size: 0.98rem;
+}
+
+.pathway-band {
+  grid-template-columns: minmax(0, 0.8fr) minmax(420px, 1.2fr);
+  align-items: start;
+  justify-items: stretch;
+  border-top: 1px solid var(--line-light);
+  background: var(--paper);
+}
+
+.pathway-copy {
+  position: sticky;
+  top: 48px;
+  display: grid;
+  gap: 18px;
+}
+
+.pathway-copy h2 {
+  max-width: 520px;
+  font-size: clamp(2.4rem, 4vw, 3.8rem);
+}
+
+.pathway-list {
+  border-top: 1px solid var(--line-light);
+}
+
+.pathway-list > div {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  align-items: center;
+  gap: 18px;
+  min-height: 86px;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.pathway-list span {
+  color: var(--violet);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.pathway-list strong {
+  font-size: clamp(1.2rem, 2.2vw, 1.75rem);
+  font-weight: 600;
+}
+
+.closing-band {
+  min-height: 620px;
+  place-items: center;
+  overflow: hidden;
+}
+
+.closing-grid {
+  position: absolute;
+  right: -4%;
+  width: min(620px, 55vw);
+  aspect-ratio: 1;
+  opacity: 0.55;
+  background-image:
+    linear-gradient(rgba(139, 92, 246, 0.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 92, 246, 0.28) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(circle, #000, transparent 68%);
+  transform: rotate(45deg);
+}
+
+.closing-copy {
+  position: relative;
+  z-index: 1;
+  width: min(720px, 100%);
+  max-width: 480px;
+  display: grid;
+  justify-items: start;
+  gap: 22px;
+  justify-self: start;
+  margin-top: -4px;
+}
+
+.closing-copy .primary {
+  margin-top: 6px;
+  border-color: var(--white);
+  color: var(--ink);
+  background: var(--white);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+

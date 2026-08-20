@@ -1,0 +1,158 @@
+/* Compact controls and a single product typeface */
+:root {
+  --font-sans: "Segoe UI Variable Text", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;
+  --weight-body: 400;
+  --weight-control: 600;
+  --weight-heading: 650;
+  --weight-emphasis: 700;
+  font-family: var(--font-sans);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.primary,
+.ghost,
+.pathway-card,
+.nav-button,
+.landing-nav-cta,
+.danger-link,
+.danger-button,
+.pathway-tab,
+.continue-link,
+.field input,
+.field select,
+.control-panel,
+.auth-panel,
+.stage,
+.known-skills,
+.current-research,
+.advanced-research,
+.dataset-summary,
+.evaluation-examples,
+.danger-zone,
+.skill-gap-panel,
+.research-row,
+.metrics-table-wrap,
+.ndcg-card,
+.continue-panel {
+  border-radius: 4px;
+}
+
+body {
+  font-weight: var(--weight-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select,
+textarea,
+table {
+  font-family: var(--font-sans);
+}
+
+.landing-hero h1,
+.band-heading h2,
+.pathway-copy h2,
+.closing-copy h2,
+.about-page-copy h1,
+.section-heading h2,
+.path-header h2,
+.auth-panel h2 {
+  font-weight: var(--weight-heading);
+}
+
+.feature-card h3,
+.stage-roadmap-item h3,
+.continue-panel h3,
+.resource h3,
+.current-research h3,
+.ndcg-card h3,
+.known-skills h3,
+.research-row strong,
+.about-principles strong,
+.pathway-card span {
+  font-weight: var(--weight-heading);
+}
+
+.primary,
+.ghost,
+.nav-button,
+.nav-button.active,
+.nav-text-link,
+.landing-nav-cta,
+.danger-link,
+.danger-button,
+.pathway-tab,
+.pathway-tab span,
+.continue-link,
+.text-action,
+.auth-toggle,
+.complete-line,
+.stage summary,
+.advanced-research > summary,
+.dataset-summary > summary,
+.evaluation-examples > summary,
+.danger-zone > summary,
+.skill-gap-panel > summary,
+.metrics-table th {
+  font-weight: var(--weight-control);
+}
+
+.brand-lockup,
+.panel-brand,
+.eyebrow,
+.hero-kicker,
+.panel-eyebrow,
+.section-heading > span,
+.continue-eyebrow,
+.course-switcher-heading,
+.feature-number,
+.stage-roadmap-item > span,
+.pathway-list > div > span,
+.about-stance span,
+.about-principles article > span {
+  font-weight: var(--weight-control);
+}
+
+strong,
+b,
+.showcase-frame figcaption strong,
+.pathway-list strong,
+.account-summary strong,
+.skill-row b,
+.gap-row b {
+  font-weight: var(--weight-emphasis);
+}
+
+.landing-hero p,
+.band-heading p,
+.pathway-copy p,
+.closing-copy p,
+.feature-card p,
+.stage-roadmap-item p,
+.showcase-frame figcaption,
+.about-page-copy p,
+.about-stance p,
+.about-story p,
+.about-principles p,
+.about-note p,
+.section-heading p,
+.continue-panel p,
+.resource p,
+.research-row p,
+.field small {
+  font-weight: var(--weight-body);
+}
+

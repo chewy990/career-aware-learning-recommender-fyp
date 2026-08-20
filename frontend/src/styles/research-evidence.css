@@ -1,0 +1,229 @@
+/* research evidence.
+ * Cascade segment 1 of 2; keep wrapper import order unchanged.
+ */
+/* Research evidence and model performance */
+.research-page {
+  gap: 28px;
+}
+
+.research-page .research-header .section-heading h2 {
+  max-width: 820px;
+  font-size: 2.625rem;
+  line-height: 1.08;
+}
+
+.current-research {
+  gap: 24px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.research-inputs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--line-light);
+  border-bottom: 1px solid var(--line-light);
+}
+
+.research-inputs > div {
+  display: grid;
+  align-content: start;
+  gap: 5px;
+  min-width: 0;
+  padding: 16px 18px;
+  border-right: 1px solid var(--line-light);
+}
+
+.research-inputs > div:first-child {
+  padding-left: 0;
+}
+
+.research-inputs > div:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+
+.research-inputs span,
+.research-priority-line > span,
+.model-performance-header > div > span,
+.metric-summary span,
+.evidence-facts dt {
+  color: var(--muted-light);
+  font-size: 0.72rem;
+  font-weight: var(--weight-control);
+  text-transform: uppercase;
+}
+
+.research-inputs strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.research-priority-line {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 18px;
+  align-items: baseline;
+  padding: 0 2px;
+}
+
+.research-priority-line strong {
+  min-width: 0;
+  color: #5d35bf;
+  font-size: 0.9rem;
+}
+
+.evidence-section-heading,
+.model-performance-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.evidence-section-heading h3,
+.model-performance-header h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.15rem;
+}
+
+.evidence-section-heading p,
+.model-performance-header p,
+.ndcg-card > p {
+  max-width: 720px;
+  margin: 6px 0 0;
+  color: var(--muted-light);
+  line-height: 1.55;
+}
+
+.evidence-section-heading > span,
+.model-performance-header > strong {
+  flex: 0 0 auto;
+  color: var(--muted-light);
+  font-size: 0.78rem;
+  font-weight: var(--weight-control);
+}
+
+.evidence-list {
+  border-top: 1px solid var(--line-light);
+}
+
+.evidence-row {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.9fr) minmax(420px, 1.35fr);
+  gap: 30px;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.evidence-row.next {
+  border-left: 3px solid var(--violet);
+  padding-left: 16px;
+}
+
+.evidence-resource {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  min-width: 0;
+}
+
+.evidence-resource > div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.evidence-rank {
+  color: #5d35bf;
+  font-size: 0.78rem;
+  font-weight: var(--weight-control);
+}
+
+.evidence-kicker {
+  color: #5d35bf;
+  font-size: 0.68rem;
+  font-weight: var(--weight-control);
+  text-transform: uppercase;
+}
+
+.evidence-resource strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+  font-size: 0.94rem;
+}
+
+.evidence-resource > div > span:last-child {
+  color: var(--muted-light);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.evidence-facts {
+  display: grid;
+  grid-template-columns: minmax(140px, 1.25fr) minmax(92px, 0.7fr) minmax(130px, 1fr);
+  gap: 18px;
+  margin: 0;
+}
+
+.evidence-facts > div {
+  min-width: 0;
+}
+
+.evidence-facts dt {
+  margin-bottom: 4px;
+}
+
+.evidence-facts dd {
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.evidence-facts dd.ready {
+  color: #5d35bf;
+  font-weight: var(--weight-control);
+}
+
+.evidence-facts dd.locked {
+  color: #744b52;
+}
+
+.completed-research {
+  border-top: 0;
+}
+
+.completed-research > summary {
+  padding: 0;
+  color: var(--muted-light);
+  font-size: 0.84rem;
+}
+
+.completed-research-list {
+  gap: 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-light);
+}
+
+.completed-evidence-row {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(260px, 1.2fr);
+  gap: 24px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.completed-evidence-row strong {
+  color: var(--ink);
+  font-size: 0.86rem;
+}

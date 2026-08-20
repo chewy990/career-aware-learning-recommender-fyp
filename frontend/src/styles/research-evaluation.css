@@ -1,0 +1,228 @@
+/* research evaluation.
+ * Cascade segment 2 of 2; keep wrapper import order unchanged.
+ */
+
+.completed-evidence-row span {
+  color: var(--muted-light);
+  font-size: 0.8rem;
+}
+
+.model-performance {
+  display: grid;
+  gap: 22px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line-light);
+}
+
+.model-performance-header > div > span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.model-performance-header > strong {
+  color: #5d35bf;
+}
+
+.metric-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--line-light);
+  border-bottom: 1px solid var(--line-light);
+}
+
+.metric-summary > div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  padding: 18px 22px;
+  border-right: 1px solid var(--line-light);
+}
+
+.metric-summary > div:first-child {
+  padding-left: 0;
+}
+
+.metric-summary > div:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+
+.metric-summary strong {
+  color: var(--ink);
+  font-size: 1.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.metric-summary small {
+  color: var(--muted-light);
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.ndcg-card {
+  padding: 20px 22px 10px;
+}
+
+.ndcg-card > p {
+  font-size: 0.82rem;
+}
+
+.ndcg-card .chart-grid-line {
+  stroke: #e1e1de;
+  stroke-width: 1;
+}
+
+.ndcg-card .model-bar {
+  fill: #b9b6c0;
+}
+
+.ndcg-card .model-bar.primary {
+  fill: var(--violet);
+}
+
+.ndcg-card .axis-label {
+  fill: var(--muted-light);
+  font-size: 10px;
+  font-weight: var(--weight-body);
+  text-anchor: end;
+}
+
+.ndcg-card .bar-value {
+  fill: var(--ink);
+  font-size: 12px;
+}
+
+.ndcg-card .bar-label {
+  fill: var(--muted-light);
+  font-size: 11px;
+  font-weight: var(--weight-control);
+}
+
+.model-performance .advanced-research {
+  margin-top: 2px;
+}
+
+@media (max-width: 1000px) {
+  .evidence-row {
+    grid-template-columns: minmax(220px, 0.8fr) minmax(360px, 1.2fr);
+    gap: 20px;
+  }
+
+  .evidence-facts {
+    grid-template-columns: 1fr 0.65fr;
+  }
+
+  .evidence-facts > div:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .research-page .research-header .section-heading h2 {
+    font-size: 2.1rem;
+  }
+
+  .research-inputs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .research-inputs > div {
+    border-bottom: 1px solid var(--line-light);
+  }
+
+  .research-inputs > div:nth-child(2) {
+    border-right: 0;
+    padding-right: 0;
+  }
+
+  .research-inputs > div:nth-child(3) {
+    padding-left: 0;
+  }
+
+  .research-inputs > div:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+
+  .research-priority-line {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .evidence-section-heading,
+  .model-performance-header {
+    align-items: flex-start;
+  }
+
+  .evidence-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .evidence-facts {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .evidence-facts > div:last-child {
+    grid-column: auto;
+  }
+
+  .completed-evidence-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 560px) {
+  .research-inputs {
+    grid-template-columns: 1fr;
+  }
+
+  .research-inputs > div,
+  .research-inputs > div:first-child,
+  .research-inputs > div:nth-child(3),
+  .research-inputs > div:last-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--line-light);
+    padding: 13px 0;
+  }
+
+  .research-inputs > div:last-child {
+    border-bottom: 0;
+  }
+
+  .evidence-section-heading,
+  .model-performance-header {
+    display: grid;
+    gap: 8px;
+  }
+
+  .evidence-row.next {
+    padding-left: 12px;
+  }
+
+  .evidence-facts {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding-left: 46px;
+  }
+
+  .metric-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-summary > div,
+  .metric-summary > div:first-child,
+  .metric-summary > div:last-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--line-light);
+    padding: 14px 0;
+  }
+
+  .metric-summary > div:last-child {
+    border-bottom: 0;
+  }
+
+  .ndcg-card {
+    padding: 16px 10px 8px;
+  }
+}

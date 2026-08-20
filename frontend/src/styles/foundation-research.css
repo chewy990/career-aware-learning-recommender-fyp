@@ -1,0 +1,253 @@
+/* foundation research.
+ * Cascade segment 5 of 5; keep wrapper import order unchanged.
+ */
+
+.metrics-table td {
+  color: #e9e2eb;
+}
+
+.ndcg-card {
+  padding: 16px;
+}
+
+.ndcg-card h3 {
+  margin: 0 0 10px;
+}
+
+.ndcg-card svg {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+}
+
+.ndcg-card line {
+  stroke: rgba(255,255,255,0.3);
+  stroke-width: 2;
+}
+
+.ndcg-card rect {
+  fill: #cf477b;
+}
+
+.ndcg-card text {
+  fill: #f5f1ea;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ndcg-card .bar-value,
+.ndcg-card .bar-label {
+  text-anchor: middle;
+}
+
+.ndcg-card .bar-label {
+  fill: #c4bec8;
+  font-size: 12px;
+}
+
+.dataset-summary {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 0 16px;
+  background: rgba(255,255,255,0.035);
+}
+
+.dataset-summary summary {
+  padding: 14px 0;
+  color: #f5d5df;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dataset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding-bottom: 16px;
+}
+
+.dataset-grid div {
+  display: grid;
+  gap: 4px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: rgba(0,0,0,0.14);
+}
+
+.dataset-grid span {
+  color: #8f8995;
+  font-size: 0.8rem;
+}
+
+.dataset-grid strong {
+  color: #f5f1ea;
+}
+
+.evaluation-examples {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 0 16px;
+  background: rgba(255,255,255,0.035);
+}
+
+.advanced-research {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 0 16px;
+  background: rgba(255,255,255,0.025);
+}
+
+.advanced-research > summary {
+  padding: 14px 0;
+  color: #b8b1bc;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.advanced-research-content {
+  display: grid;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.advanced-research-content > p {
+  margin: 0;
+  color: #9b94a0;
+  line-height: 1.6;
+}
+
+.evaluation-examples summary {
+  padding: 14px 0;
+  color: #f5d5df;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.evaluation-examples .research-controls {
+  margin-top: 12px;
+}
+
+.research-list {
+  display: grid;
+  gap: 10px;
+}
+
+.research-row {
+  display: grid;
+  gap: 6px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(255,255,255,0.04);
+}
+
+.research-row.completed {
+  border-color: rgba(181, 102, 215, 0.34);
+  background: rgba(115, 49, 148, 0.12);
+}
+
+.research-row em {
+  color: #cdb4dd;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.research-row span {
+  color: #8f8995;
+  font-size: 0.86rem;
+}
+
+.research-row p {
+  margin: 0;
+  color: #c4bec8;
+  line-height: 1.55;
+}
+
+.stage-list {
+  display: grid;
+  gap: 14px;
+}
+
+.stage {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.035);
+}
+
+.stage summary {
+  padding: 16px 18px;
+  font-weight: 700;
+  background: rgba(255,255,255,0.055);
+}
+
+.resource {
+  padding: 18px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  display: grid;
+  gap: 10px;
+}
+
+.resource.completed {
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.complete-line {
+  display: inline-flex;
+  width: fit-content;
+  gap: 10px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.complete-line input {
+  width: 18px;
+  height: 18px;
+  accent-color: #cf477b;
+}
+
+.resource h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.resource p {
+  margin: 0;
+  color: #c4bec8;
+  line-height: 1.6;
+}
+
+.lock-note,
+.empty-stage {
+  color: #e4bd77;
+}
+
+.skill-gap-panel {
+  border-top: 1px solid rgba(255,255,255,0.12);
+  padding-top: 8px;
+}
+
+.gap-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 86px minmax(220px, 0.75fr);
+  gap: 16px;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.gap-row > span {
+  font-weight: 700;
+}
+
+.gap-row b {
+  display: inline-flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+  color: #f5d5df;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+

@@ -1,0 +1,218 @@
+/* product forms.
+ * Cascade segment 3 of 4; keep wrapper import order unchanged.
+ */
+
+.password-toggle:hover,
+.password-toggle:focus-visible {
+  color: var(--ink);
+  background: #ececea;
+}
+
+.skill-row {
+  border-color: var(--line-light);
+}
+
+.known-skill-list {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line-light);
+}
+
+.known-skill-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.known-skill-item span {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  color: var(--ink);
+  background: transparent;
+  font-size: 0.9rem;
+  font-weight: var(--weight-body);
+}
+
+.known-skill-item strong {
+  color: #5d35bf;
+  font-size: 0.86rem;
+  text-align: right;
+}
+
+.text-action,
+.auth-toggle {
+  color: #5d35bf;
+}
+
+.action-row .primary {
+  margin-top: 0;
+}
+
+.auth-shell {
+  min-height: calc(100dvh - 48px);
+}
+
+.auth-panel {
+  position: relative;
+  border: 1px solid var(--line-light);
+  border-radius: 4px;
+  padding: 38px;
+  color: var(--ink);
+  background: var(--white);
+  box-shadow: none;
+}
+
+.auth-panel::before {
+  content: "Career-Aware Learning";
+  display: block;
+  margin-bottom: 28px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line-light);
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.auth-panel h2 {
+  color: var(--ink);
+  font-size: 2rem;
+}
+
+.auth-panel p {
+  color: var(--muted-light);
+}
+
+.error-banner {
+  border: 1px solid #d8b8bc;
+  border-radius: 4px;
+  color: #67383e;
+  background: #f8e9eb;
+}
+
+.research-header {
+  align-items: start;
+}
+
+.current-research {
+  padding: 24px;
+}
+
+.current-research h3,
+.ndcg-card h3 {
+  color: var(--ink);
+}
+
+.current-research p,
+.advanced-research-content > p {
+  color: var(--muted-light);
+}
+
+.research-row {
+  border: 1px solid var(--line-light);
+  border-radius: 4px;
+  color: var(--ink);
+  background: var(--white);
+}
+
+.research-row.completed {
+  border-color: var(--line-light);
+  background: #f3f3f1;
+}
+
+.research-row em {
+  color: #5d35bf;
+}
+
+.research-row span,
+.research-row p {
+  color: var(--muted-light);
+}
+
+.completed-research {
+  border-top: 1px solid var(--line-light);
+}
+
+.completed-research > summary {
+  padding: 14px 0 2px;
+  color: var(--ink);
+  font-weight: var(--weight-control);
+  cursor: pointer;
+}
+
+.completed-research-list {
+  display: grid;
+  gap: 10px;
+  padding-top: 12px;
+}
+
+.metrics-table-wrap,
+.ndcg-card {
+  border: 1px solid var(--line-light);
+  border-radius: 4px;
+  color: var(--ink);
+  background: var(--white);
+}
+
+.metrics-table th,
+.metrics-table td {
+  border-color: var(--line-light);
+  color: var(--ink);
+}
+
+.metrics-table th {
+  color: var(--muted-light);
+  background: #f2f2f0;
+}
+
+.ndcg-card line {
+  stroke: #a9a9a6;
+}
+
+.ndcg-card rect {
+  fill: var(--violet);
+}
+
+.ndcg-card text {
+  fill: var(--muted-light);
+}
+
+.dataset-grid > div {
+  border-color: var(--line-light);
+  background: #f6f6f4;
+}
+
+.dataset-grid span {
+  color: var(--muted-light);
+}
+
+.dataset-grid strong {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.danger-zone {
+  background: transparent;
+}
+
+.danger-button {
+  border: 1px solid #ddc7ca;
+  color: #7b464d;
+  background: #fff8f8;
+}
+
+.danger-button:hover {
+  border-color: #c89ca2;
+  background: #faeeee;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

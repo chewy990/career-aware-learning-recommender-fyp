@@ -1,0 +1,221 @@
+/* landing shell.
+ * Cascade segment 1 of 3; keep wrapper import order unchanged.
+ */
+/* Landing */
+.landing {
+  position: relative;
+  width: 100%;
+  overflow: clip;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.landing-nav {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 20;
+  width: min(100% - 48px, 1320px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 0 auto;
+  padding: 22px 0;
+  background: transparent;
+  border: 0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.brand-button {
+  border: 0;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+}
+
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 19px;
+  height: 19px;
+  color: var(--violet);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.landing-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.nav-text-link {
+  border: 0;
+  padding: 8px 0;
+  color: #d2d2d5;
+  background: transparent;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.nav-text-link:hover {
+  color: var(--white);
+}
+
+.landing-nav-cta {
+  margin: 0;
+  border-color: var(--white);
+  padding: 10px 17px;
+  color: var(--ink);
+  background: var(--white);
+  font-size: 0.82rem;
+}
+
+.landing-nav-cta:hover {
+  color: var(--ink);
+  background: #e9e9e7;
+}
+
+.landing-hero {
+  position: relative;
+  min-height: min(900px, 92dvh);
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  overflow: hidden;
+  padding: 102px max(32px, calc((100vw - 1320px) / 2)) 96px;
+  color: var(--white);
+  background: var(--ink);
+  text-align: left;
+}
+
+.landing-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 72px;
+  opacity: 0.35;
+  background-image:
+    linear-gradient(90deg, transparent 49%, rgba(255, 255, 255, 0.25) 50%, transparent 51%),
+    linear-gradient(0deg, transparent 49%, rgba(255, 255, 255, 0.2) 50%, transparent 51%);
+  background-size: 5px 5px;
+  mask-image: linear-gradient(to bottom, transparent, #000);
+  pointer-events: none;
+}
+
+.landing-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background: linear-gradient(90deg, var(--ink) 0%, var(--ink) 43%, rgba(5, 5, 6, 0.94) 52%, transparent 72%);
+  pointer-events: none;
+}
+
+.landing-hero-copy {
+  position: relative;
+  z-index: 4;
+  width: min(650px, 52vw);
+  display: grid;
+  justify-items: start;
+  padding: 0;
+}
+
+.hero-kicker {
+  color: #b4b4b8;
+}
+
+.landing-hero h1 {
+  max-width: 700px;
+  margin: 22px 0 0;
+  color: var(--white);
+  font-family: inherit;
+  font-size: clamp(3.1rem, 5vw, 4.75rem);
+  font-weight: 650;
+  line-height: 0.98;
+  letter-spacing: 0;
+  text-shadow: none;
+}
+
+.landing-hero p {
+  max-width: 590px;
+  margin: 24px 0 0;
+  color: #a7a7ac;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.hero-cta {
+  margin-top: 28px;
+  border-color: var(--white);
+  color: var(--ink);
+  background: var(--white);
+}
+
+.hero-cta:hover {
+  color: var(--ink);
+  background: #e9e9e7;
+}
+
+.hero-facts {
+  position: absolute;
+  left: max(32px, calc((100vw - 1320px) / 2));
+  bottom: 34px;
+  z-index: 5;
+  display: flex;
+  gap: 30px;
+  color: #86868c;
+  font-size: 0.78rem;
+}
+
+.hero-facts span {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.hero-facts strong {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.hero-schematic {
+  position: absolute;
+  top: 50%;
+  right: max(8px, calc((100vw - 1440px) / 2));
+  z-index: 2;
+  width: min(680px, 53vw);
+  aspect-ratio: 1.18;
+  transform: translateY(-48%) perspective(1000px) rotateX(58deg) rotateZ(-28deg);
+  transform-style: preserve-3d;
+}
+
+.hero-schematic::before {
+  content: "";
+  position: absolute;
+  inset: 8%;
+  border: 1px solid rgba(139, 92, 246, 0.22);
+  box-shadow: 0 0 90px rgba(139, 92, 246, 0.1);
+}
+
+.schematic-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.55;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: radial-gradient(circle, #000 25%, transparent 75%);
+}

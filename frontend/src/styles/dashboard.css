@@ -1,0 +1,73 @@
+/* Dashboard detail polish */
+.skill-gap-panel .gap-row {
+  grid-template-columns: minmax(0, 1fr) 80px minmax(230px, auto);
+  gap: 18px;
+  padding: 14px 20px;
+  box-sizing: border-box;
+}
+
+.skill-gap-panel .gap-row > span,
+.skill-gap-panel .gap-row small,
+.skill-gap-panel .gap-row b {
+  min-width: 0;
+}
+
+.skill-gap-panel .gap-row b {
+  justify-self: end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  white-space: normal;
+}
+
+.danger-zone-body {
+  padding: 2px 20px 20px;
+}
+
+.danger-zone-body > p {
+  margin: 0 0 14px;
+  color: var(--muted-light);
+  line-height: 1.55;
+}
+
+.progress-note {
+  border-color: #d8d0ed;
+  border-left: 3px solid var(--violet);
+  padding: 18px 20px;
+  color: #403653;
+  background: #f5f2ff;
+}
+
+.progress-note > strong {
+  color: var(--ink);
+}
+
+.progress-note .skill-change {
+  border: 1px solid #ddd8eb;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.progress-note .skill-change > span {
+  color: var(--ink);
+}
+
+.progress-note .skill-change b {
+  color: #4c2f91;
+}
+
+.progress-note .skill-change i {
+  color: var(--violet);
+}
+
+@media (max-width: 900px) {
+  .skill-gap-panel .gap-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .skill-gap-panel .gap-row b {
+    justify-self: start;
+    justify-content: flex-start;
+  }
+}
+
