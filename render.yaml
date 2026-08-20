@@ -1,0 +1,51 @@
+services:
+  - type: web
+    name: chewy990-career-recommender-api-sg
+    runtime: python
+    plan: free
+    region: singapore
+    autoDeployTrigger: checksPass
+    buildCommand: pip install --require-hashes -r requirements-api.txt
+    startCommand: uvicorn api.main:app --app-dir src --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips=*
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: AUTH_ALLOWED_ORIGINS
+        value: https://chewy990-career-recommender.onrender.com
+      - key: AUTH_COOKIE_SECURE
+        value: "true"
+      - key: AUTH_COOKIE_SAMESITE
+        value: none
+      - key: AUTH_REQUIRE_ORIGIN
+        value: "true"
+
+  - type: web
+    name: chewy990-career-recommender
+    runtime: static
+    autoDeployTrigger: checksPass
+    buildCommand: cd frontend && npm ci && npm run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      - key: VITE_API_BASE
+        value: https://chewy990-career-recommender-api-sg.onrender.com
+    headers:
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://chewy990-career-recommender-api-sg.onrender.com"
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: no-referrer
+      - path: /*
+        name: Permissions-Policy
+        value: "camera=(), microphone=(), geolocation=()"
