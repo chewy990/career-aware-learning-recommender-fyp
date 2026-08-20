@@ -1,0 +1,4 @@
+# Production API dependencies. Exact pins are compiled with hashes below.
+fastapi==0.141.1
+uvicorn==0.52.3
+psycopg[binary]==3.3.4

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Frontend dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Secrets and local state
+.env
+.env.*
+*.env
+data/auth.sqlite3
+data/auth.sqlite3-*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Regenerable local review interfaces
+outputs/audit_review.html
+outputs/graded_relevance_working/
+
+# Scratch outputs
+tmp/
+outputs/ui-checks/

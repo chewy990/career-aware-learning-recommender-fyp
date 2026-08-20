@@ -1,0 +1,9 @@
+-r requirements-api.in
+
+# Offline figures, tests, linting, and dependency auditing.
+matplotlib==3.11.1
+Pillow==12.3.0
+pytest==9.1.1
+ruff==0.16.3
+httpx2==2.10.0
+pip-audit==2.10.1
