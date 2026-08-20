@@ -1,0 +1,41 @@
+module_id,parent_resource_id,module_title,provider,skills,difficulty_level,duration_hours,source_url,date_checked
+M001,R001,Filtering Data with a WHERE Clause,Coursera,sql,1,1.0,https://assets.ctfassets.net/82ripq7fjls2/6gd5BNLXKoxDCn5T5Wlnk3/ae5927c1b569226109012a3d051847fb/sql-for-data-analysis-beginner.pdf,2026-06-08
+M002,R001,Aggregation Functions,Coursera,sql;data_cleaning,1,1.0,https://assets.ctfassets.net/82ripq7fjls2/6gd5BNLXKoxDCn5T5Wlnk3/ae5927c1b569226109012a3d051847fb/sql-for-data-analysis-beginner.pdf,2026-06-08
+M003,R001,Types of Joins,Coursera,sql,1,1.0,https://assets.ctfassets.net/82ripq7fjls2/6gd5BNLXKoxDCn5T5Wlnk3/ae5927c1b569226109012a3d051847fb/sql-for-data-analysis-beginner.pdf,2026-06-08
+M004,R002,Planning the SELECT Statement,DataCamp,sql,2,0.5,https://www.datacamp.com/courses/reporting-in-sql,2026-06-08
+M005,R002,Combining Tables,DataCamp,sql;databases,2,0.75,https://www.datacamp.com/courses/reporting-in-sql,2026-06-08
+M006,R002,Filtering with a JOIN,DataCamp,sql;databases,2,0.75,https://www.datacamp.com/courses/reporting-in-sql,2026-06-08
+M007,R003,Dashboard,Coursera,excel;dashboards,1,1.0,https://www.coursera.org/learn/excel-intermediate-1,2026-06-08
+M008,R004,Dashboard Layouts,edX,data_visualisation;dashboards,1,1.0,https://www.datacamp.com/resources/webinars/dashboard-design-in-power-bi,2026-06-08
+M009,R004,Interactive Elements and Slicers,edX,data_visualisation;dashboards,1,1.0,https://www.datacamp.com/resources/webinars/dashboard-design-in-power-bi,2026-06-08
+M010,R017,Create Charts with Python,DataCamp,python;data_visualisation,2,1.0,https://www.datacamp.com/courses/introduction-to-data-visualization-with-matplotlib,2026-08-15
+M011,R017,Build Dashboard-Style Visualisations,DataCamp,python;data_visualisation;dashboards,2,1.0,https://www.datacamp.com/courses/introduction-to-data-visualization-with-matplotlib,2026-08-15
+M012,R021,Clean Messy Data,University Open Course,data_cleaning,1,1.0,https://openrefine.org/docs/manual/transforming,2026-08-15
+M013,R025,SQL and Data Extraction,Coursera,sql;data_cleaning,1,1.0,https://www.coursera.org/learn/process-data,2026-08-15
+M014,R025,Data Visualisation and Communication,Coursera,data_visualisation,1,1.0,https://www.coursera.org/learn/visualize-data,2026-08-15
+M015,R028,Design the Dashboard Layout,DataCamp,dashboards;data_visualisation,1,1.0,https://www.datacamp.com/tutorial/power-bi-dashboard-tutorial,2026-06-08
+M016,R028,Add Filters and Slicers,DataCamp,dashboards;data_visualisation,1,0.75,https://www.datacamp.com/tutorial/power-bi-dashboard-tutorial,2026-06-08
+M017,R028,Pin Visuals to a Dashboard,DataCamp,dashboards,1,0.75,https://www.datacamp.com/tutorial/power-bi-dashboard-tutorial,2026-06-08
+M018,R031,Hypothesis Testing for Business Decisions,edX,statistics,2,1.0,https://www.edx.org/learn/python/ibm-introduction-to-statistics-for-data-science-using-python,2026-08-15
+M019,R032,Chart Selection for Data Stories,Coursera,data_visualisation;dashboards,1,1.0,https://www.coursera.org/learn/datavisualization,2026-06-08
+M020,R033,Cleaning Data with SQL Transformations,University Open Course,sql;data_cleaning,2,1.0,https://www.w3schools.com/sql/sql_update.asp,2026-06-08
+M021,R018,SQL Filtering and Sorting,DataCamp,sql,1,2.0,https://www.datacamp.com/courses/introduction-to-sql,2026-08-15
+M022,R018,SQL Joins for Analysis,DataCamp,sql;databases,2,2.0,https://www.datacamp.com/courses/joining-data-in-sql,2026-08-15
+M023,R018,Cleaning Data with pandas,DataCamp,python;data_cleaning,2,3.0,https://www.datacamp.com/courses/cleaning-data-in-python,2026-08-15
+M024,R018,Tableau Dashboard Layouts,DataCamp,data_visualisation;dashboards,1,2.0,https://www.datacamp.com/courses/data-visualization-in-tableau,2026-08-15
+M025,R018,Statistical Thinking,DataCamp,statistics,1,3.0,https://www.datacamp.com/courses/statistical-thinking-in-python-part-1,2026-08-15
+M026,R018,Data Analyst Case Study,DataCamp,sql;python;data_visualisation;data_cleaning,2,4.0,https://www.datacamp.com/courses/analyzing-business-data-in-sql,2026-08-15
+M027,R019,Supervised Learning Basics,DataCamp,python;machine_learning;model_evaluation,2,3.0,https://www.datacamp.com/courses/supervised-learning-with-scikit-learn,2026-08-15
+M028,R019,Model Validation,DataCamp,machine_learning;model_evaluation;statistics,2,2.0,https://www.datacamp.com/courses/model-validation-in-python,2026-08-15
+M029,R019,Intro to MLOps,DataCamp,deployment;machine_learning;model_evaluation,3,3.0,https://www.datacamp.com/courses/mlops-concepts,2026-08-15
+M030,R019,ML API Deployment,DataCamp,python;deployment;apis;machine_learning,3,3.0,https://campus.datacamp.com/courses/mlops-concepts/deploying-machine-learning-into-production?ex=1,2026-08-15
+M031,R020,Git Basics,freeCodeCamp,version_control,1,2.0,https://www.freecodecamp.org/learn/relational-database/learn-git-by-building-an-sql-reference-object/build-an-sql-reference-object,2026-08-15
+M032,R020,API Routes,freeCodeCamp,programming;apis,2,3.0,https://www.freecodecamp.org/learn/back-end-development-and-apis/basic-node-and-express/meet-the-node-console,2026-08-15
+M033,R020,Database Projects,freeCodeCamp,databases;sql;programming,2,4.0,https://www.freecodecamp.org/learn/relational-database/#build-a-student-database-part-1,2026-08-15
+M034,R020,Quality Assurance Testing,freeCodeCamp,testing;programming;apis,2,3.0,https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-and-testing-with-chai/learn-how-javascript-assertions-work,2026-08-15
+M035,R020,Object Oriented JavaScript,freeCodeCamp,programming;oop,2,3.0,https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-object-oriented-programming-by-building-a-shopping-cart,2026-08-15
+M036,R047,Basic JavaScript,freeCodeCamp,programming,1,3.0,https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-javascript-by-building-a-role-playing-game,2026-08-15
+M037,R047,Algorithmic Thinking,freeCodeCamp,programming;testing,2,3.0,https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#review-javascript-fundamentals-by-building-a-gradebook-app,2026-08-15
+M038,R048,Managing Packages with npm,freeCodeCamp,programming;apis,2,2.0,https://www.freecodecamp.org/learn/back-end-development-and-apis/managing-packages-with-npm/how-to-use-package-json-the-core-of-any-node-js-project-or-npm-package,2026-08-15
+M039,R048,Basic Node and Express,freeCodeCamp,programming;apis,2,3.0,https://www.freecodecamp.org/learn/back-end-development-and-apis/basic-node-and-express/meet-the-node-console,2026-08-15
+M040,R048,MongoDB and Mongoose,freeCodeCamp,databases;apis;programming,2,3.0,https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/install-and-set-up-mongoose,2026-08-15

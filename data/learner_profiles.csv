@@ -1,0 +1,12 @@
+profile_id,name,target_pathway,current_skills,completed_topics,weak_skills,preferred_difficulty,max_duration_hours,preferred_format
+P001,Beginner Data Analyst,data_analyst,python:2;excel:2;sql:0;statistics:1;data_visualisation:0;data_cleaning:1,python;excel,sql;data_visualisation;statistics,1,8,course
+P002,Intermediate ML Engineer,ml_engineer,python:2;statistics:1;machine_learning:1;model_evaluation:0;deployment:0;apis:0,python;statistics,machine_learning;model_evaluation;deployment,2,12,course
+P003,Intermediate Software Developer,software_developer,programming:2;oop:1;apis:0;databases:1;testing:0;version_control:1,programming;databases,apis;testing;oop,2,10,project
+P004,Intermediate Data Analyst,data_analyst,excel:2;sql:1;python:0;statistics:1;data_visualisation:1;dashboards:0,excel;sql,python;dashboards;data_cleaning,1,6,course
+P005,Advanced ML Engineer,ml_engineer,python:2;machine_learning:2;model_evaluation:1;deployment:0;apis:1;version_control:1,python;machine_learning;apis,deployment;model_evaluation,3,9,course
+P006,Beginner Software Developer,software_developer,programming:1;oop:0;apis:0;databases:0;testing:0;version_control:0,programming,oop;apis;databases;testing;version_control,1,8,tutorial
+P007,Advanced Data Analyst,data_analyst,python:1;sql:1;statistics:0;data_visualisation:1;data_cleaning:0;dashboards:0,python;sql,statistics;data_cleaning;dashboards,2,10,project
+P008,Beginner Data Scientist,data_scientist,python:1;sql:1;statistics:0;data_cleaning:1;data_visualisation:1;machine_learning:0;model_evaluation:0,python;sql,statistics;machine_learning;model_evaluation,1,10,course
+P009,Intermediate Data Scientist,data_scientist,python:2;sql:2;statistics:2;data_cleaning:2;data_visualisation:1;machine_learning:1;model_evaluation:0,python;sql;statistics;data_cleaning,machine_learning;model_evaluation,2,12,project
+P010,Beginner Data Engineer,data_engineer,python:1;sql:1;databases:0;data_cleaning:1;deployment:0;apis:0;version_control:0,python;sql,databases;data_cleaning;deployment;apis;version_control,1,10,course
+P011,Intermediate Data Engineer,data_engineer,python:2;sql:2;databases:2;data_cleaning:2;programming:1;version_control:1;apis:1;deployment:0,python;sql;databases;data_cleaning,deployment;apis;version_control,2,12,project

@@ -1,0 +1,17 @@
+skill,data_analyst,ml_engineer,software_developer,data_scientist,data_engineer
+python,3,3,2,3,3
+sql,3,2,2,2,3
+excel,3,0,0,1,0
+statistics,3,2,1,3,1
+data_visualisation,3,2,0,2,1
+data_cleaning,3,2,1,3,3
+machine_learning,1,3,0,3,1
+model_evaluation,1,3,1,3,0
+deployment,0,3,2,1,2
+programming,2,3,3,1,2
+oop,0,2,3,0,1
+apis,0,2,3,1,2
+databases,2,1,3,1,3
+testing,0,2,3,1,1
+version_control,1,2,3,1,2
+dashboards,3,0,0,1,1
