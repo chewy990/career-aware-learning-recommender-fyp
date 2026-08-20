@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Graded Relevance Review</title>
+  <style>
+    :root{color-scheme:light;--ink:#161616;--muted:#666;--line:#ddd;--paper:#f5f2ea;--card:#fff;--accent:#8f1d2c;--soft:#f8e9eb;--ok:#176b45}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 "Segoe UI",Arial,sans-serif}
+    button,input,textarea{font:inherit}.shell{max-width:1180px;margin:auto;padding:24px}.top{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:start;margin-bottom:18px}
+    .eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.09em;font-size:.76rem}h1{font-size:clamp(2rem,5vw,4rem);line-height:.95;margin:.3rem 0 1rem;letter-spacing:-.05em}
+    .lede{max-width:760px;color:#444;margin:0}.progress-box{background:var(--ink);color:#fff;padding:18px;min-width:210px}.progress-box strong{display:block;font-size:2rem}.bar{height:7px;background:#555;margin-top:10px}.bar span{display:block;height:100%;background:#f3c54b;width:0}
+    .toolbar{position:sticky;top:0;z-index:4;display:flex;flex-wrap:wrap;gap:8px;padding:12px 0;background:linear-gradient(var(--paper) 80%,transparent)}button,.file-label{border:1px solid var(--ink);background:#fff;padding:9px 13px;cursor:pointer;font-weight:650}.primary{background:var(--ink);color:#fff}.danger{border-color:var(--accent);color:var(--accent)}button:disabled{opacity:.4;cursor:not-allowed}.file-label input{display:none}
+    #save-status{align-self:center;color:var(--muted);font-size:.9rem}.notice{display:none;background:#fff2cb;border-left:5px solid #d49b00;padding:12px;margin:8px 0 16px}.notice.show{display:block}
+    .rubric{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 18px}.rubric div{background:#fff;border-top:4px solid var(--ink);padding:12px}.rubric strong{display:block}.rubric span{font-size:.9rem;color:var(--muted)}
+    .review{background:var(--card);border:1px solid var(--line);box-shadow:0 16px 45px #0000000d}.review-head{display:flex;justify-content:space-between;gap:15px;padding:18px 22px;border-bottom:1px solid var(--line)}.review-head h2{margin:0;font-size:1.4rem}.id{font-variant-numeric:tabular-nums;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr)}.evidence{padding:22px}.decision{padding:22px;background:#fafafa;border-left:1px solid var(--line)}
+    .profile{background:var(--ink);color:#fff;padding:17px;margin-bottom:18px}.profile h3{margin:0 0 6px;font-size:1.15rem}.profile dl,.metadata{display:grid;grid-template-columns:140px minmax(0,1fr);gap:7px 12px;margin:0}.profile dt{color:#bbb}.profile dd,.metadata dd{margin:0;min-width:0;white-space:normal;overflow-wrap:anywhere;word-break:break-word}.resource-title{font-size:1.55rem;line-height:1.15;margin:.2rem 0}.provider{color:var(--accent);font-weight:700}.description{font-size:1.03rem}.metadata{border-top:1px solid var(--line);padding-top:14px}.metadata dt{font-weight:700}
+    .field{margin-bottom:22px}.field>strong{display:block;margin-bottom:8px}.choices{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.choice{min-height:62px}.choice.active{background:var(--accent);border-color:var(--accent);color:#fff}.choice small{display:block;font-weight:400}
+    textarea{width:100%;min-height:110px;border:1px solid #aaa;padding:10px;resize:vertical}.error{color:var(--accent);font-weight:650;min-height:1.5em}.navigation{display:flex;justify-content:space-between;gap:10px;padding:16px 22px;border-top:1px solid var(--line)}
+    @media(max-width:780px){.shell{padding:15px}.top,.grid{grid-template-columns:1fr}.progress-box{min-width:0}.rubric{grid-template-columns:1fr}.decision{border-left:0;border-top:1px solid var(--line)}.profile dl,.metadata{grid-template-columns:1fr}.profile dd,.metadata dd{margin-bottom:8px}.toolbar{position:static}.choices{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<main class="shell">
+  <header class="top"><div><div class="eyebrow">Blinded metadata review</div><h1>Graded relevance</h1><p class="lede">Assess whether each resource is essential, useful, or tangential for the learner shown. Model names, scores, ranks, profile IDs, and resource IDs are hidden. This tool works offline.</p></div><div class="progress-box"><span>Completed</span><strong id="progress-text">0 / 0</strong><div class="bar"><span id="progress-bar"></span></div></div></header>
+  <div class="toolbar">
+    <button class="primary" id="save">Save progress</button>
+    <button id="backup">Download backup</button>
+    <label class="file-label">Restore backup<input id="restore" type="file" accept="application/json,.json"></label>
+    <button id="export" disabled>Download completed CSV</button>
+    <button class="danger" id="reset">Reset all</button>
+    <span id="save-status">Not saved yet</span>
+  </div>
+  <div class="notice" id="storage-warning">Browser storage is unavailable. Use “Download backup” regularly so progress is not lost.</div>
+  <section class="rubric"><div><strong>3 — Essential</strong><span>Priority gap or immediate prerequisite; belongs near the top.</span></div><div><strong>2 — Useful</strong><span>Clearly helpful, but broader, overlapping, less urgent, or better later.</span></div><div><strong>1 — Tangential</strong><span>Defensible connection, but weak present fit. Use confidence 1 and explain if it seems irrelevant.</span></div></section>
+  <article class="review">
+    <div class="review-head"><h2 id="item-title">Review item</h2><span class="id" id="item-position"></span></div>
+    <div class="grid"><section class="evidence"><div class="profile"><h3 id="profile-name"></h3><dl id="profile-details"></dl></div><div class="provider" id="provider"></div><h3 class="resource-title" id="resource-title"></h3><p class="description" id="description"></p><dl class="metadata" id="resource-details"></dl></section>
+    <aside class="decision"><div class="field"><strong>Relevance grade</strong><div class="choices" id="grade-choices"></div></div><div class="field"><strong>Confidence</strong><div class="choices" id="confidence-choices"></div></div><label class="field"><strong>Reviewer notes</strong><textarea id="notes" placeholder="Required for confidence 1; optional otherwise"></textarea></label><div class="error" id="error"></div></aside></div>
+    <nav class="navigation"><button id="previous">Previous</button><button class="primary" id="next">Save & next</button></nav>
+  </article>
+</main>
+<script>
+const ITEMS=__ITEMS__;
+const STORAGE_KEY="graded-relevance-review-__PACK_ID__";
+const FIELDS=__FIELDS__;
+let state={index:0,answers:{},savedAt:null};
+const $=id=>document.getElementById(id);
+const text=(id,value)=>$(id).textContent=value||"—";
+const readable=value=>String(value||"None").replaceAll(";"," · ");
+function load(){try{const raw=localStorage.getItem(STORAGE_KEY);if(raw)state={...state,...JSON.parse(raw)};}catch{$("storage-warning").classList.add("show");}}
+function save(show=true){state.savedAt=new Date().toISOString();try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));if(show)text("save-status",`Saved ${new Date(state.savedAt).toLocaleTimeString()}`);}catch{$("storage-warning").classList.add("show");if(show)text("save-status","Download a backup to save");}}
+function answer(){const id=ITEMS[state.index].grading_item_id;return state.answers[id]||(state.answers[id]={grade:"",confidence:"",notes:""});}
+function setList(id,rows){const dl=$(id);dl.replaceChildren();rows.forEach(([a,b])=>{const dt=document.createElement("dt"),dd=document.createElement("dd");dt.textContent=a;dd.textContent=readable(b);dl.append(dt,dd);});}
+function choices(id,kind,labels){const host=$(id);host.replaceChildren();labels.forEach(([value,label])=>{const button=document.createElement("button");button.className="choice"+(answer()[kind]===value?" active":"");button.type="button";button.innerHTML=`<strong>${value}</strong><small>${label}</small>`;button.onclick=()=>{answer()[kind]=value;save(false);render();};host.append(button);});}
+function valid(row){return ["1","2","3"].includes(row.grade)&&["1","2","3"].includes(row.confidence)&&(row.confidence!=="1"||row.notes.trim());}
+function render(){const item=ITEMS[state.index],a=answer();text("item-title",item.grading_item_id);text("item-position",`${state.index+1} of ${ITEMS.length}`);text("profile-name",item.profile_name);setList("profile-details",[["Pathway",item.pathway],["Current skills",item.current_skills],["Completed",item.completed_topics],["Weak skills",item.weak_skills],["Preferred difficulty",item.preferred_difficulty]]);text("provider",item.provider);text("resource-title",item.resource_title);text("description",item.description);setList("resource-details",[["Topic",item.topic],["Skills",item.skills],["Difficulty",item.resource_difficulty],["Duration (hours)",item.duration_hours],["Format",item.format],["Prerequisites",item.prerequisites],["Cost",item.cost]]);choices("grade-choices","grade",[["3","Essential"],["2","Useful"],["1","Tangential"]]);choices("confidence-choices","confidence",[["3","High"],["2","Moderate"],["1","Low"]]);$("notes").value=a.notes;$("previous").disabled=state.index===0;$("next").textContent=state.index===ITEMS.length-1?"Save item":"Save & next";const completed=ITEMS.filter(x=>valid(state.answers[x.grading_item_id]||{})).length;text("progress-text",`${completed} / ${ITEMS.length}`);$("progress-bar").style.width=`${100*completed/ITEMS.length}%`;$("export").disabled=completed!==ITEMS.length;$("error").textContent="";if(state.savedAt)text("save-status",`Saved ${new Date(state.savedAt).toLocaleTimeString()}`);}
+function commit(){answer().notes=$("notes").value;const a=answer();if(!a.grade||!a.confidence){text("error","Choose both a relevance grade and confidence.");return false;}if(a.confidence==="1"&&!a.notes.trim()){text("error","Add a note for low-confidence decisions.");return false;}save(false);return true;}
+function download(name,type,content){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),link=document.createElement("a");link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function csvCell(value){const s=String(value??"");return /[",\n\r]/.test(s)?`"${s.replaceAll('"','""')}"`:s;}
+$("notes").addEventListener("input",()=>{answer().notes=$("notes").value;save(false);});$("save").onclick=()=>{answer().notes=$("notes").value;save(true);render();};$("previous").onclick=()=>{answer().notes=$("notes").value;if(state.index>0)state.index--;save(false);render();};$("next").onclick=()=>{if(!commit())return;if(state.index<ITEMS.length-1)state.index++;save(false);render();};
+$("backup").onclick=()=>{answer().notes=$("notes").value;save(false);download("graded_relevance_progress.json","application/json",JSON.stringify({pack:STORAGE_KEY,state},null,2));};
+$("restore").onchange=async event=>{try{const parsed=JSON.parse(await event.target.files[0].text());if(parsed.pack!==STORAGE_KEY)throw new Error();state=parsed.state;save(true);render();}catch{alert("This backup does not match the current grading pack.");}event.target.value="";};
+$("export").onclick=()=>{if(!ITEMS.every(x=>valid(state.answers[x.grading_item_id]||{}))){alert("Complete every grade and confidence first.");return;}const rows=[FIELDS.join(",")];ITEMS.forEach(item=>{const a=state.answers[item.grading_item_id];const row={...item,relevance_grade:a.grade,reviewer_confidence:a.confidence,reviewer_notes:a.notes};rows.push(FIELDS.map(field=>csvCell(row[field])).join(","));});download("graded_relevance_completed.csv","text/csv;charset=utf-8",rows.join("\r\n")+"\r\n");};
+$("reset").onclick=()=>{if(confirm("Delete all saved grades and notes for this pack?")){state={index:0,answers:{},savedAt:null};try{localStorage.removeItem(STORAGE_KEY);}catch{}render();}};window.addEventListener("beforeunload",()=>{answer().notes=$("notes").value;save(false);});load();render();
+</script>
+</body></html>
