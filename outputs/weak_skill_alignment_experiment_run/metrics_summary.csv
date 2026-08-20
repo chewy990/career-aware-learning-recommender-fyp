@@ -1,0 +1,7 @@
+model,k,profile_count,precision_at_k,recall_at_k,ndcg_at_k
+hybrid,3,11,0.9697,0.1272,0.8143
+hybrid,5,11,0.9455,0.2077,0.8078
+hybrid,10,11,0.9364,0.4116,0.8181
+hybrid_weak_skill_alignment,3,11,1.0,0.1307,0.9462
+hybrid_weak_skill_alignment,5,11,0.9818,0.2143,0.8779
+hybrid_weak_skill_alignment,10,11,0.9364,0.4113,0.8425

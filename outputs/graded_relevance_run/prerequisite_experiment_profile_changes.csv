@@ -1,0 +1,12 @@
+profile_id,pathway,ranking_changed,top_5_changed,top_10_overlap,baseline_invalid_at_5_count,variant_invalid_at_5_count,baseline_invalid_count,variant_invalid_count,baseline_invalid_ids,removed_ids,replacement_ids,relevant_replacement_count,baseline_ndcg_at_5,variant_ndcg_at_5,ndcg_at_5_difference,baseline_top_5,variant_top_5
+P001,data_analyst,True,False,0.9,0,0,1,0,R026,R026,R017,1,0.854646,0.854646,0.0,R025;R028;R003;R029;R001,R025;R028;R003;R029;R001
+P002,ml_engineer,False,False,1.0,0,0,0,0,,,,0,1.0,1.0,0.0,R039;R043;R023;R093;R044,R039;R043;R023;R093;R044
+P003,software_developer,True,True,0.8,2,0,2,0,R095;R055,R095;R055,R058;R016,1,0.925026,1.0,0.074974,R057;R056;R073;R095;R055,R057;R056;R073;R053;R071
+P004,data_analyst,True,False,0.9,0,0,1,0,R026,R026,R064,1,0.709291,0.709291,0.0,R025;R003;R028;R092;R091,R025;R003;R028;R092;R091
+P005,ml_engineer,False,False,1.0,0,0,0,0,,,,0,1.0,1.0,0.0,R039;R038;R041;R069;R011,R039;R038;R041;R069;R011
+P006,software_developer,True,False,0.7,0,0,3,0,R095;R055;R096,R095;R055;R096,R013;R074;R071,3,0.622377,0.622377,0.0,R056;R057;R034;R016;R073,R056;R057;R034;R016;R073
+P007,data_analyst,False,False,1.0,0,0,0,0,,,,0,1.0,1.0,0.0,R026;R029;R075;R017;R025,R026;R029;R075;R017;R025
+P008,data_scientist,True,True,0.5,3,0,5,0,R044;R023;R093;R036;R066,R044;R023;R093;R036;R066,R007;R005;R065;R030;R091,5,1.0,1.0,0.0,R029;R044;R035;R023;R093,R029;R035;R075;R033;R006
+P009,data_scientist,False,False,1.0,0,0,0,0,,,,0,0.877722,0.877722,0.0,R093;R023;R044;R036;R009,R093;R023;R044;R036;R009
+P010,data_engineer,True,False,0.9,0,0,1,0,R055,R055,R033,1,0.349237,0.349237,0.0,R096;R022;R034;R025;R027,R096;R022;R034;R025;R027
+P011,data_engineer,False,False,1.0,0,0,0,0,,,,0,0.547664,0.547664,0.0,R055;R095;R057;R075;R002,R055;R095;R057;R075;R002

@@ -1,0 +1,17 @@
+{
+  "confidence_counts": {
+    "1": 6,
+    "2": 44,
+    "3": 208
+  },
+  "frozen_protocol": "docs/final_robustness_protocol.md",
+  "primary_metric": "gated-minus-production macro graded NDCG@5",
+  "scenarios": [
+    "all_uncertain_down_one",
+    "all_uncertain_up_one",
+    "confidence_1_down_one",
+    "confidence_1_up_one"
+  ],
+  "stability_rule": "positive in every perturbed scenario",
+  "version": "1"
+}

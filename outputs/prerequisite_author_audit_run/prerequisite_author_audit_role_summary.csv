@@ -1,0 +1,3 @@
+experiment_role,items,definite_decisions,uncertain_decisions,author_relevant,author_relevant_rate,mean_confidence
+baseline_removed,5,5,0,5,1.0000,2.4000
+variant_replacement,5,5,0,5,1.0000,3.0000

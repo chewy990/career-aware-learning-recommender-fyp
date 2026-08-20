@@ -1,0 +1,13 @@
+{
+  "eligibility": "normal ranked candidate policy",
+  "frozen_protocol": "docs/final_robustness_protocol.md",
+  "invariants": [
+    "irrelevant_completed_topic",
+    "preferred_difficulty",
+    "prerequisite_completion",
+    "skill_improvement",
+    "weakness_removal"
+  ],
+  "pass_rule": "all eligible cases pass",
+  "version": "1"
+}

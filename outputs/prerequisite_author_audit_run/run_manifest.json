@@ -1,0 +1,51 @@
+{
+  "audit_type": "blinded_targeted_prerequisite_author_audit",
+  "code_files": {
+    "src/edu_recommender/prerequisite_audit.py": {
+      "sha256": "28e6d8d841b07d1500967e979ee11005d731faa3aeb06b0758e621f1a78b079d"
+    },
+    "src/run_prerequisite_author_audit.py": {
+      "sha256": "dcaa427f06e26069d3d72c8b5f05eac74b29874f9ee2d6ac522c0a8faa9d4ad0"
+    }
+  },
+  "configuration_fingerprint_sha256": "85e28d346151f8a0b0d8236c1e71d90e55a7cb2dbc020d380ce50b9658c352b3",
+  "generated_at_utc": "2026-07-31T00:51:34.494051Z",
+  "input_files": {
+    "completed_author_export": {
+      "path": "outputs/prerequisite_author_audit_run/input/prerequisite_audit_completed.csv",
+      "sha256": "fbbeee0dbb879bdfea00a1c102f209ae20abf2ec8f1322fdbcaa03d6b62a9c26"
+    },
+    "generated_blinded_sheet": {
+      "path": "outputs/prerequisite_experiment_run/prerequisite_experiment_audit_blinded.csv",
+      "sha256": "d3875dab2dab5cfa51175698554d244289502d9ba11c444b889dd7c8916d04ff"
+    },
+    "generated_hidden_key": {
+      "path": "outputs/prerequisite_experiment_run/prerequisite_experiment_audit_key.csv",
+      "sha256": "333f8492c8814641aa226154419e12e0670b444c44d966be106d716ea384a4bd"
+    }
+  },
+  "manifest_filename": "run_manifest.json",
+  "output_files": {
+    "prerequisite_author_audit_joined.csv": {
+      "sha256": "b21809c3120054b103f69843dba55b74731fe0b6c70f3f34385c15ce59d82330"
+    },
+    "prerequisite_author_audit_role_summary.csv": {
+      "sha256": "147bcb4aa1adacffa3837a6f03e9c031293d6e752b60d7057568a64efa5f56f8"
+    },
+    "prerequisite_author_audit_summary.md": {
+      "sha256": "2b70c509fd5b7d9744bf1afecc783e4c75cfb03e0469b6dc37e90ff6cd15eeea"
+    }
+  },
+  "prerequisite_author_audit_version": 1,
+  "python_version": "3.12.13",
+  "result": {
+    "agreement_count": 10,
+    "definite_count": 10,
+    "item_count": 10,
+    "removed_relevant_count": 5,
+    "replacement_relevant_count": 5,
+    "uncertain_count": 0
+  },
+  "run_id": "85e28d346151f8a0",
+  "schema_version": 1
+}

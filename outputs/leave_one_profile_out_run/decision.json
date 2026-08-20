@@ -1,0 +1,10 @@
+{
+  "criterion": "every leave-one-profile-out mean difference stays positive",
+  "full_mean_difference": 0.078611,
+  "maximum_leave_one_out_mean": 0.086472,
+  "maximum_when_omitting": "P002",
+  "minimum_leave_one_out_mean": 0.061784,
+  "minimum_when_omitting": "P010",
+  "models_refit_or_reranked": false,
+  "passed": true
+}

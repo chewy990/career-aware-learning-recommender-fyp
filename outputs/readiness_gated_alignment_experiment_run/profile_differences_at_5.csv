@@ -1,0 +1,12 @@
+profile_id,pathway,baseline_ndcg_at_5,variant_ndcg_at_5,difference
+P001,data_analyst,0.854646,1.0,0.145354
+P002,ml_engineer,1.0,1.0,0.0
+P003,software_developer,0.925026,1.0,0.074974
+P004,data_analyst,0.709291,0.874799,0.165508
+P005,ml_engineer,1.0,1.0,0.0
+P006,software_developer,0.622377,0.622377,0.0
+P007,data_analyst,1.0,1.0,0.0
+P008,data_scientist,1.0,1.0,0.0
+P009,data_scientist,0.877722,0.877722,0.0
+P010,data_engineer,0.349237,0.596116,0.246879
+P011,data_engineer,0.547664,0.779671,0.232007

@@ -1,0 +1,12 @@
+profile_id,target_pathway,preferred_difficulty,max_duration_hours,preferred_format,current_skill_count,weak_skill_count,completed_topic_count
+P001,data_analyst,1,8.0,course,6,3,2
+P002,ml_engineer,2,12.0,course,6,3,2
+P003,software_developer,2,10.0,project,6,3,2
+P004,data_analyst,1,6.0,course,6,3,2
+P005,ml_engineer,3,9.0,course,6,2,3
+P006,software_developer,1,8.0,tutorial,6,5,1
+P007,data_analyst,2,10.0,project,6,3,2
+P008,data_scientist,1,10.0,course,7,3,2
+P009,data_scientist,2,12.0,project,7,2,4
+P010,data_engineer,1,10.0,course,7,5,2
+P011,data_engineer,2,12.0,project,8,3,4

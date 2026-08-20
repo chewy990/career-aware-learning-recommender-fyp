@@ -1,0 +1,2 @@
+metric,k,profile_count,mean_difference,ci_95_lower,ci_95_upper,standardized_effect_dz,variant_wins,ties,variant_losses,exact_permutation_p,wilcoxon_w_plus,wilcoxon_p,bootstrap_replicates,random_seed
+graded_ndcg_at_k,5,11,0.078611,0.021862,0.135846,0.782436,5,6,0,0.0625,15.0,0.0625,5000,42

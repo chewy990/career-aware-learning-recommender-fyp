@@ -1,0 +1,18 @@
+{
+  "code_sha256": {
+    "src/edu_recommender/final_robustness/common.py": "54d19701f21ffc87978223adf3f2ab97172ea8afb643bce7f0f97fa3a42bf436",
+    "src/edu_recommender/final_robustness/leave_one_out.py": "94547eb15873a7d6eb440c5b783780ed8c7eeab3deb3c93e8211d550077270c7",
+    "src/run_leave_one_profile_out.py": "8d0f24eb83e536e5eca17560a53a0e95b3b9c60b5093ac7308a79ef2ef0fc6ad"
+  },
+  "experiment": "leave_one_profile_out_stability",
+  "input_sha256": {
+    "docs/final_robustness_protocol.md": "9c25531f77bdc188b5d225a95a0ec1d72c56f51b0339315b28b5ba5c4381e293",
+    "outputs/readiness_gated_alignment_experiment_run/profile_differences_at_5.csv": "1362cc2e7e968423638a640117e881dbe6c1e562f168b9ecd9b0e93a46e74b50"
+  },
+  "output_sha256": {
+    "decision.json": "9a14ce0220cd87d8a45523d3bc85cab65c06eb694ba2c3e72b7783525319bad0",
+    "leave_one_profile_out.csv": "5c804ecbc682945d507cae5a7871e7baa5fcf3caa4f99da845742c4b3716657e",
+    "protocol.json": "30d6f2b2a4cb1e797d8ddef600f8f61cf08ae251b6d014bbacd8c93fcbe4ae2e"
+  },
+  "schema_version": "1"
+}

@@ -1,0 +1,7 @@
+audit_item_id,pathway,profile_id,resource_id,resource_title,current_label,author_label,agreement,reviewer_confidence,selection_reason,reviewer_notes
+A003,data_analyst,P001,R003,Excel Skills for Business,0,1,0,1,recommended_not_relevant,this user already has more than basic excel and basic data cleaning. doing the whole course just to learn dashboards is a waste.
+A004,data_analyst,P007,R003,Excel Skills for Business,0,1,0,3,recommended_not_relevant,
+A008,data_analyst,P004,R012,Git and GitHub Crash Course,0,1,0,2,not_relevant_not_recommended,"the pathway does not match given course, however every technical professional generally benefits from version control and using Github."
+A013,data_engineer,P011,R039,MLOps Fundamentals,1,0,0,2,relevant_not_recommended,pathway does not match course given despite some overlapping skills.
+A035,software_developer,P006,R055,Database Clients and ORM Basics,0,1,0,1,recommended_not_relevant,pathway does not match course given despite similar skills.
+A039,software_developer,P003,R048,Back End Development and APIs,0,1,0,3,not_relevant_not_recommended,

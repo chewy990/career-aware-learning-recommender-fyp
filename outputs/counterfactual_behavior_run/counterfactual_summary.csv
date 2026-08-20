@@ -1,0 +1,6 @@
+invariant,case_count,passed_count,failed_count,pass_rate
+irrelevant_completed_topic,11,11,0,1.0
+preferred_difficulty,496,496,0,1.0
+prerequisite_completion,396,396,0,1.0
+skill_improvement,16,15,1,0.9375
+weakness_removal,207,207,0,1.0

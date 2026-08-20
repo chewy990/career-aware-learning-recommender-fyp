@@ -1,0 +1,29 @@
+{
+  "code_sha256": {
+    "edu_recommender/weak_skill_alignment_experiment/__init__.py": "4514f530e32f644c8d68b5dd8d8f10e9cdd57431e7dedfc8b0cc27d38d47cfe8",
+    "edu_recommender/weak_skill_alignment_experiment/reporting.py": "97416a6fb539b9f00e572f7d9445a8572db3795d159c2eaa9534cc2ffe555c06",
+    "edu_recommender/weak_skill_alignment_experiment/service.py": "28cd5fa97644f5d025e5be020c56ca36fc02f43767fef86f6bec91ef93c36db2",
+    "run_readiness_gated_alignment_experiment.py": "b5b4525a02696336adeae7f9e996414052de98560ba309915e66a59b864ff11a",
+    "run_weak_skill_alignment_experiment.py": "53f863448956664930ebf8c4a3f9c949433359d86edee8712b288c4f983f06e8"
+  },
+  "experiment_version": "1",
+  "input_sha256": {
+    "learner_profiles.csv": "0093fef60ff8adc93b0a4b6c19e3ab61fd7ce406402ab4ee7c4017c79f03b141",
+    "relevance_judgements.csv": "04bc6016b1f8b7b6a8c3c67f67890a0e6fbea50dd7dc00192744efd67ae136a9",
+    "relevance_judgements_graded.csv": "5869cfb98f46a106651ddc0c6d0331ea656e7adbe57cda76a07b246efd2d842a",
+    "resources.csv": "6d80588f67fe3701536e89c15f2bc23c17786aa7de777565e2490feb29717e60",
+    "skill_map.csv": "40cd09b3ddf045e16c07e9225f8641a42d8e36020abc6b0927cec6e20a45fff8"
+  },
+  "output_sha256": {
+    "decision.json": "3c253b5e9ff5406ea4115127954002ac2af3284e1d4157e0b60d70c5a093e603",
+    "diagnostics_at_5.csv": "52bec9d92475d4dce1391d4b740fb8623ab2b4aa8382a642559d58195829aaea",
+    "metrics_by_pathway.csv": "3ee3d3e431e63fce4dde9d24c0b39c7b9caff0e3b497125c05ddeb39ba95b6f0",
+    "metrics_by_profile.csv": "bd884437694a671c3db8091d163ecc2eb2f6830e964229a5a18a5a884d4f208d",
+    "metrics_summary.csv": "20988737057ba6cefa52d96d413bd94ba09039d05036455ddab5d23129c41b11",
+    "paired_graded_ndcg_at_5.csv": "6f4b88a5e21fec996efd4eda9fd07274785a130c1e5493881f899f75be1e0489",
+    "profile_differences_at_5.csv": "1362cc2e7e968423638a640117e881dbe6c1e562f168b9ecd9b0e93a46e74b50",
+    "protocol.json": "1748b92d59335c99c843ae341eb4e7ce7e620b7d0c48a01ff2a27e44e9ba7735",
+    "recommendations_variant.csv": "57791d9a83e45ea3b7b37e35eb14a74bd38870c718278e1ffdb77f3e277ac6c6"
+  },
+  "random_seed": 42
+}

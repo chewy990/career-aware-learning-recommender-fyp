@@ -1,0 +1,49 @@
+dimension,category,count,percentage
+provider,DataCamp,24,25.0
+provider,Coursera,17,17.7
+provider,freeCodeCamp,16,16.7
+provider,YouTube,7,7.3
+provider,University Open Course,6,6.2
+provider,edX,6,6.2
+provider,Kaggle Learn,4,4.2
+provider,3Blue1Brown,2,2.1
+provider,Fireship,2,2.1
+provider,IBM SkillsBuild,2,2.1
+provider,StatQuest,2,2.1
+provider,Udemy,2,2.1
+provider,Atlassian,1,1.0
+provider,Computerphile,1,1.0
+provider,Google Cloud,1,1.0
+provider,Khan Academy,1,1.0
+provider,Storytelling with Data,1,1.0
+provider,Udacity,1,1.0
+format,course,41,42.7
+format,module,15,15.6
+format,project,10,10.4
+format,tutorial,7,7.3
+format,youtube,7,7.3
+format,career_track,5,5.2
+format,video_essay,4,4.2
+format,article,3,3.1
+format,video,3,3.1
+format,reading,1,1.0
+difficulty,Beginner,34,35.4
+difficulty,Intermediate,47,49.0
+difficulty,Advanced,15,15.6
+duration_band,0-2 hours,21,21.9
+duration_band,>2-5 hours,42,43.8
+duration_band,>5-10 hours,21,21.9
+duration_band,>10-20 hours,7,7.3
+duration_band,>20 hours,5,5.2
+cost,paid,49,51.0
+cost,free,47,49.0
+pathway_positive_relevance,data_analyst,55,57.3
+pathway_core_relevance,data_analyst,30,31.2
+pathway_positive_relevance,data_scientist,82,85.4
+pathway_core_relevance,data_scientist,31,32.3
+pathway_positive_relevance,data_engineer,81,84.4
+pathway_core_relevance,data_engineer,26,27.1
+pathway_positive_relevance,ml_engineer,84,87.5
+pathway_core_relevance,ml_engineer,30,31.2
+pathway_positive_relevance,software_developer,59,61.5
+pathway_core_relevance,software_developer,34,35.4

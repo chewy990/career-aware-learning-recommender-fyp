@@ -1,0 +1,12 @@
+dimension,category,count,percentage
+target_pathway,data_analyst,3,27.3
+target_pathway,data_scientist,2,18.2
+target_pathway,data_engineer,2,18.2
+target_pathway,ml_engineer,2,18.2
+target_pathway,software_developer,2,18.2
+preferred_difficulty,Beginner,5,45.5
+preferred_difficulty,Intermediate,5,45.5
+preferred_difficulty,Advanced,1,9.1
+preferred_format,course,6,54.5
+preferred_format,project,4,36.4
+preferred_format,tutorial,1,9.1

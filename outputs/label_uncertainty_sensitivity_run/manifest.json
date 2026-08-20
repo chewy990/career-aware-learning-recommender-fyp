@@ -1,0 +1,30 @@
+{
+  "code_sha256": {
+    "src/edu_recommender/evaluation/ranking_metrics.py": "57488de55dc59e5c37cca398a5fd261483c8aba1d27edec682a14b9ca8b60631",
+    "src/edu_recommender/final_robustness/common.py": "54d19701f21ffc87978223adf3f2ab97172ea8afb643bce7f0f97fa3a42bf436",
+    "src/edu_recommender/final_robustness/label_sensitivity.py": "e060da953680dbd5110974baf04b122da437afceab38322a10e27ee952c364ff",
+    "src/edu_recommender/models/signals.py": "77b9a11a5833301b5fa3adc470c6570c1942e5bcd0ea31d1eb2ba5bc77f573a1",
+    "src/edu_recommender/models/suite.py": "8b88aed4360a13bb1532c1e223fba72c40970fcd95c9655906f517ac54990019",
+    "src/edu_recommender/weak_skill_alignment_experiment/service.py": "28cd5fa97644f5d025e5be020c56ca36fc02f43767fef86f6bec91ef93c36db2",
+    "src/run_label_uncertainty_sensitivity.py": "67584ead4b36ade3bd10c441178844080467015d6bcd1d1e54029a6ad794ae66"
+  },
+  "experiment": "label_uncertainty_sensitivity",
+  "input_sha256": {
+    "data/learner_profiles.csv": "0093fef60ff8adc93b0a4b6c19e3ab61fd7ce406402ab4ee7c4017c79f03b141",
+    "data/relevance_judgements.csv": "04bc6016b1f8b7b6a8c3c67f67890a0e6fbea50dd7dc00192744efd67ae136a9",
+    "data/relevance_judgements_graded.csv": "5869cfb98f46a106651ddc0c6d0331ea656e7adbe57cda76a07b246efd2d842a",
+    "data/resources.csv": "6d80588f67fe3701536e89c15f2bc23c17786aa7de777565e2490feb29717e60",
+    "data/skill_map.csv": "40cd09b3ddf045e16c07e9225f8641a42d8e36020abc6b0927cec6e20a45fff8",
+    "docs/final_robustness_protocol.md": "9c25531f77bdc188b5d225a95a0ec1d72c56f51b0339315b28b5ba5c4381e293",
+    "outputs/graded_relevance_run/input/graded_relevance_completed.csv": "cd57fd3f6ed1ea42501fe39bd3b623459a3b57ef9232285c5dae2e6609953e73",
+    "outputs/graded_relevance_run/input/graded_relevance_key.csv": "12202506c40e2d9c6237e8cd79333504a401bcc63b127d10273a4f1ec01c3322"
+  },
+  "output_sha256": {
+    "decision.json": "55b101b1a83a1a33aa31158a03e5b811b89a5b4304e0883edf516b17713d5cb0",
+    "pathway_differences.csv": "10949b494e196f1481c28fa683dbd2da5f8e917060403a2a60f80563ad00c54e",
+    "profile_differences.csv": "a27758213e858638569a4147a807c1875d6a59cb1dff7d7b151052df7d9e9b0d",
+    "protocol.json": "4a80613c870f6af73dccf6c024f1665346a2d579349ad2cb5ff905c82c8873f5",
+    "scenario_summary.csv": "aa24098ed099162fe8bfa9fb00481afcba0551ad726dafeabe09b667a6601749"
+  },
+  "schema_version": "1"
+}

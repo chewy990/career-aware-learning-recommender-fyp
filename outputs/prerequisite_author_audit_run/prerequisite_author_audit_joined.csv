@@ -1,0 +1,11 @@
+audit_item_id,pathway,profile_id,resource_id,resource_title,experiment_role,current_label,author_label,agreement,reviewer_confidence,reviewer_notes
+H001,data_scientist,P008,R023,Practical Feature Engineering,baseline_removed,1,1,1,3,
+H002,software_developer,P003,R071,freeCodeCamp Module API Routes,variant_replacement,1,1,1,3,
+H003,data_scientist,P008,R075,DataCamp Module Data Analyst Case Study,variant_replacement,1,1,1,3,
+H004,data_scientist,P008,R033,Data Cleaning in SQL and Python,variant_replacement,1,1,1,3,
+H005,software_developer,P003,R055,Database Clients and ORM Basics,baseline_removed,1,1,1,2,
+H006,data_scientist,P008,R006,Pandas Data Cleaning Tutorial,variant_replacement,1,1,1,3,
+H007,software_developer,P003,R053,Git Branching and Collaboration,variant_replacement,1,1,1,3,
+H008,data_scientist,P008,R044,Feature Selection and Validation,baseline_removed,1,1,1,1,skills might be too big a leap going from 0 to 2
+H009,software_developer,P003,R095,Mini Project Build a Tested REST API,baseline_removed,1,1,1,3,
+H010,data_scientist,P008,R093,Mini Project Customer Churn Model,baseline_removed,1,1,1,3,

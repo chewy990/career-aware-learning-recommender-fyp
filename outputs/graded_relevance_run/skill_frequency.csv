@@ -1,0 +1,17 @@
+skill,resource_count,catalogue_percentage,mean_difficulty
+python,35,36.5,2.14
+machine_learning,29,30.2,2.45
+programming,27,28.1,1.7
+apis,22,22.9,2.18
+model_evaluation,19,19.8,2.37
+sql,18,18.8,1.5
+data_visualisation,17,17.7,1.47
+databases,17,17.7,1.76
+data_cleaning,16,16.7,1.56
+testing,16,16.7,1.81
+deployment,15,15.6,2.67
+statistics,13,13.5,1.77
+dashboards,12,12.5,1.25
+version_control,12,12.5,1.75
+oop,6,6.2,2.33
+excel,3,3.1,1.33

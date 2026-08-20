@@ -1,0 +1,1299 @@
+{
+  "pack": "graded-relevance-review-e4c103a823958f04",
+  "state": {
+    "index": 257,
+    "answers": {
+      "G001": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G002": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G003": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G004": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "he already has basic data cleaning and sql"
+      },
+      "G005": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G006": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "he does not need machine learning as a data engineer, however this course still has essential api and deployment skills needed"
+      },
+      "G007": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "he already has basic data cleaning and even better excel. the course does not cover his weak skills."
+      },
+      "G008": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G009": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G010": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G011": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has basic python. course does not cover his weak skills. however this course is somewhat related to statistics because of the use of NumPy."
+      },
+      "G012": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "topics are very related, a perfect match, but might be too difficult."
+      },
+      "G013": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": "perfect match on all fronts."
+      },
+      "G014": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G015": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "perfect match, but might be too difficult since api and testing will jump from 0 to 2."
+      },
+      "G016": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has level 1 sql."
+      },
+      "G017": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G018": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G019": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G020": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "machine learning skill is not required for data engineer. user might find it too hard to follow because of this. other reasons include api and deployment is too big a jump."
+      },
+      "G021": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too difficult. perfect match in skills but too big a jump in skill level. user might not learn anything and just be confused instead."
+      },
+      "G022": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has basic sql"
+      },
+      "G023": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": "perfect match in skills, most of the difficulty, and prerequisites."
+      },
+      "G024": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "machine learning is not needed for data analyst. together with a big jump in statistics, this becomes irrelevant. even though some skills are related."
+      },
+      "G025": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "user does not have python prerequisites"
+      },
+      "G026": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has basic version control"
+      },
+      "G027": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has basic sql"
+      },
+      "G028": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G029": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G030": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": "perfect match to improve level 2 skills to level 3."
+      },
+      "G031": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G032": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G033": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G034": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G035": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G036": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G037": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G038": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G039": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "database might be too hard, but skills match well"
+      },
+      "G040": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G041": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G042": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": "might be too difficult for user, although skills is a match"
+      },
+      "G043": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too hard, although skills is a match"
+      },
+      "G044": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G045": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G046": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G047": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has basic data cleaning"
+      },
+      "G048": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G049": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G050": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G051": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G052": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G053": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too hard, but skills is a match"
+      },
+      "G054": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too hard"
+      },
+      "G055": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G056": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "some skills match, at least user has python prerequisites, but api skill level is  unknown to make judgement. machine learning prerequisites is too low. overall, this course could be useful."
+      },
+      "G057": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G058": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G059": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G060": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G061": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "user already has level 2 database and sql"
+      },
+      "G062": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G063": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G064": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G065": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G066": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G067": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G068": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "might be too hard, although skills match fine."
+      },
+      "G069": {
+        "grade": "1",
+        "confidence": "2",
+        "notes": "might be too hard, no prerequisites"
+      },
+      "G070": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G071": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G072": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": "might be too hard. user's database skillset is unknown, which makes it hard to make a judgement. otherwise, skill is generally a match"
+      },
+      "G073": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "user meets the prerequisites. they should be able to learn databases from this. database can be useful for data analysts."
+      },
+      "G074": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has level 2 data cleaning and python"
+      },
+      "G075": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G076": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "might be too hard for user, especially database concepts. it is unknown whether user has sql prerequisites, i assume not, so it might be too hard. otherwise, skills match fine."
+      },
+      "G077": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G078": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G079": {
+        "grade": "1",
+        "confidence": "2",
+        "notes": "user already has basic statistics, but skills can be reinforced."
+      },
+      "G080": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "skills match, but too difficult for user."
+      },
+      "G081": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "skills not really relevant"
+      },
+      "G082": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G083": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": "user already has basic sql, but it can be reinforced."
+      },
+      "G084": {
+        "grade": "1",
+        "confidence": "2",
+        "notes": "user already have most skills met from this course. its too basic for him."
+      },
+      "G085": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": " "
+      },
+      "G086": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G087": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G088": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has level 2 data cleaning, databases, and sql"
+      },
+      "G089": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "user does not really need sql urgently, but could be good knowledge for a software developer"
+      },
+      "G090": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "skills are a good match, but user is lacking prerequisites and might find it too difficult."
+      },
+      "G091": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G092": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "good match for skills, and good prerequisites, but difficulty might be too high since user requested level 1 difficulty. could be useful for future part of the course when his current kills improves."
+      },
+      "G093": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "good skills and prerequisites match, but might be too hard for user now."
+      },
+      "G094": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": "might be hard but user requested level 2 difficulty so its perfect."
+      },
+      "G095": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": "unknown if user has python prerequisites. course is too easy for user. he already has programming level 2, and version control level 1."
+      },
+      "G096": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G097": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G098": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "too easy for user, but excellent skills match"
+      },
+      "G099": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too hard for user"
+      },
+      "G100": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G101": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has level 2 databases and sql"
+      },
+      "G102": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G103": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G104": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already have level 1 version control"
+      },
+      "G105": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G106": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G107": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G108": {
+        "grade": "3",
+        "confidence": "1",
+        "notes": "might be too hard for user but good skills match"
+      },
+      "G109": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "user asks for more difficulty but good skills match."
+      },
+      "G110": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already have level 1 statistics"
+      },
+      "G111": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user already has level 1 data cleaning and sql"
+      },
+      "G112": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G113": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "user does not require machine learning"
+      },
+      "G114": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "good skills match but too hard for user"
+      },
+      "G115": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G116": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G117": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G118": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G119": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G120": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G121": {
+        "grade": "3",
+        "confidence": "1",
+        "notes": "too hard for user although skills match"
+      },
+      "G122": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too hard for user though skills is a perfect match"
+      },
+      "G123": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G124": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G125": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G126": {
+        "grade": "3",
+        "confidence": "1",
+        "notes": "too hard for user although skills match"
+      },
+      "G127": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G128": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G129": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G130": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G131": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G132": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G133": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G134": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G135": {
+        "grade": "2",
+        "confidence": "1",
+        "notes": "user already has level 1 python"
+      },
+      "G136": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G137": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G138": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "might be too easy"
+      },
+      "G139": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too hard but skills match"
+      },
+      "G140": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G141": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G142": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G143": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G144": {
+        "grade": "2",
+        "confidence": "1",
+        "notes": "might be too easy for user"
+      },
+      "G145": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G146": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G147": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G148": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G149": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G150": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G151": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G152": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G153": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G154": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G155": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G156": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G157": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G158": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G159": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G160": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G161": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G162": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "good skills match, might be too hard"
+      },
+      "G163": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G164": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G165": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G166": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G167": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G168": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G169": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G170": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G171": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G172": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G173": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too easy"
+      },
+      "G174": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G175": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G176": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G177": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G178": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G179": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G180": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G181": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G182": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G183": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G184": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G185": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G186": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "too hard"
+      },
+      "G187": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G188": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G189": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G190": {
+        "grade": "3",
+        "confidence": "1",
+        "notes": "too easy"
+      },
+      "G191": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G192": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G193": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G194": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G195": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G196": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G197": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G198": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G199": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G200": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G201": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be hard"
+      },
+      "G202": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G203": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too easy"
+      },
+      "G204": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too easy"
+      },
+      "G205": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too easy"
+      },
+      "G206": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "good skills match but might be hard"
+      },
+      "G207": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G208": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too easy"
+      },
+      "G209": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too easy"
+      },
+      "G210": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G211": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G212": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G213": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G214": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G215": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G216": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G217": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G218": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G219": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G220": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G221": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G222": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G223": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "lacking machine learning prerequisites, but skills are a good match"
+      },
+      "G224": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G225": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G226": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G227": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G228": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": ""
+      },
+      "G229": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G230": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G231": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G232": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G233": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G234": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be slightly too hard for user but good skills match"
+      },
+      "G235": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G236": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G237": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too hard for user, lacking prerequisites"
+      },
+      "G238": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too hard for user"
+      },
+      "G239": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too hard"
+      },
+      "G240": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G241": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G242": {
+        "grade": "2",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G243": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G244": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too easy, although skills match"
+      },
+      "G245": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "too easy"
+      },
+      "G246": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too hard but skills match well"
+      },
+      "G247": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G248": {
+        "grade": "2",
+        "confidence": "2",
+        "notes": "user's python skill is unknown"
+      },
+      "G249": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G250": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G251": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G252": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G253": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "too easy"
+      },
+      "G254": {
+        "grade": "3",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G255": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": ""
+      },
+      "G256": {
+        "grade": "1",
+        "confidence": "3",
+        "notes": "use already has python basics"
+      },
+      "G257": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too hard, a difficulty level of 2 will be just right."
+      },
+      "G258": {
+        "grade": "3",
+        "confidence": "2",
+        "notes": "might be too hard"
+      }
+    },
+    "savedAt": "2026-08-13T07:15:42.357Z"
+  }
+}

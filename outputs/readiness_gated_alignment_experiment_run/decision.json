@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "macro_ndcg_delta_at_least_0_01": true,
+    "no_pathway_ndcg_drop_below_minus_0_03": true,
+    "no_readiness_drop_below_minus_0_05": true,
+    "weak_case_mean_delta_positive": true
+  },
+  "interpretation_limit": "Exploratory reuse of the author-graded answer key. The result cannot establish independent generalisation.",
+  "macro_ndcg_at_5_delta": 0.0786,
+  "pathway_ndcg_at_5_deltas": {
+    "data_analyst": 0.1037,
+    "data_engineer": 0.2394,
+    "data_scientist": 0.0,
+    "ml_engineer": 0.0,
+    "software_developer": 0.0375
+  },
+  "readiness_deltas_at_5": {
+    "difficulty_match_rate": 0.0,
+    "prerequisite_validity_rate": 0.0545
+  },
+  "status": "candidate_for_independent_validation",
+  "weak_case_mean_ndcg_at_5_delta": 0.179842
+}

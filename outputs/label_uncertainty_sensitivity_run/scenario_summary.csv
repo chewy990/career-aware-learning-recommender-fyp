@@ -1,0 +1,6 @@
+scenario,changed_grade_count,baseline_ndcg_at_5,gated_ndcg_at_5,mean_difference,gated_wins,ties,gated_losses,minimum_pathway_difference,direction_positive
+canonical,0,0.8078,0.8864,0.0786,5,6,0,0.0,True
+all_uncertain_down_one,47,0.7699,0.8588,0.0889,6,5,0,0.0,True
+all_uncertain_up_one,14,0.8166,0.8952,0.0786,5,6,0,0.0,True
+confidence_1_down_one,6,0.8078,0.8864,0.0786,5,6,0,0.0,True
+confidence_1_up_one,2,0.8078,0.8864,0.0786,5,6,0,0.0,True

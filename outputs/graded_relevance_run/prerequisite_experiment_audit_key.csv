@@ -1,0 +1,11 @@
+audit_item_id,profile_id,resource_id,current_label,experiment_role
+H001,P008,R023,1,baseline_removed
+H002,P003,R071,1,variant_replacement
+H003,P008,R075,1,variant_replacement
+H004,P008,R033,1,variant_replacement
+H005,P003,R055,1,baseline_removed
+H006,P008,R006,1,variant_replacement
+H007,P003,R053,1,variant_replacement
+H008,P008,R044,1,baseline_removed
+H009,P003,R095,1,baseline_removed
+H010,P008,R093,1,baseline_removed

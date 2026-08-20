@@ -1,0 +1,12 @@
+profile_id,target_pathway,relevant_count,non_relevant_count,relevance_prevalence
+P001,data_analyst,24,72,25.0
+P002,ml_engineer,21,75,21.9
+P003,software_developer,24,72,25.0
+P004,data_analyst,22,74,22.9
+P005,ml_engineer,16,80,16.7
+P006,software_developer,22,74,22.9
+P007,data_analyst,25,71,26.0
+P008,data_scientist,26,70,27.1
+P009,data_scientist,23,73,24.0
+P010,data_engineer,26,70,27.1
+P011,data_engineer,29,67,30.2

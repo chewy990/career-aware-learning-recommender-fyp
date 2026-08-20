@@ -1,0 +1,24 @@
+{
+  "code_sha256": {
+    "src/edu_recommender/final_robustness/common.py": "54d19701f21ffc87978223adf3f2ab97172ea8afb643bce7f0f97fa3a42bf436",
+    "src/edu_recommender/final_robustness/counterfactual.py": "5a71bdd4ea7fbaf887b062653b411ae49365b56658d8861824812b53926667e4",
+    "src/edu_recommender/models/signals.py": "77b9a11a5833301b5fa3adc470c6570c1942e5bcd0ea31d1eb2ba5bc77f573a1",
+    "src/edu_recommender/models/suite.py": "8b88aed4360a13bb1532c1e223fba72c40970fcd95c9655906f517ac54990019",
+    "src/edu_recommender/weak_skill_alignment_experiment/service.py": "28cd5fa97644f5d025e5be020c56ca36fc02f43767fef86f6bec91ef93c36db2",
+    "src/run_counterfactual_behavior.py": "5544c95c788ef42ec2c825ff7181fdedcfb98cae093133a6d819d25a673bd864"
+  },
+  "experiment": "counterfactual_behavior",
+  "input_sha256": {
+    "data/learner_profiles.csv": "0093fef60ff8adc93b0a4b6c19e3ab61fd7ce406402ab4ee7c4017c79f03b141",
+    "data/resources.csv": "6d80588f67fe3701536e89c15f2bc23c17786aa7de777565e2490feb29717e60",
+    "data/skill_map.csv": "40cd09b3ddf045e16c07e9225f8641a42d8e36020abc6b0927cec6e20a45fff8",
+    "docs/final_robustness_protocol.md": "9c25531f77bdc188b5d225a95a0ec1d72c56f51b0339315b28b5ba5c4381e293"
+  },
+  "output_sha256": {
+    "counterfactual_cases.csv": "9c717e82c4aade21dcd15a65a174f444d3d0e70719c2a190bc2eb7597a5a00ee",
+    "counterfactual_summary.csv": "164097afd5bdb16521e826aba7952103df902acaed400dcc36e11844208ae1ab",
+    "decision.json": "d7172cd30ebbfb6ab7b7186a66305e0e855307820fee0c5964cd5f0a357831f9",
+    "protocol.json": "6d6f208c7c0dfba9334aa40115e8f8246cbfe2520fa074b532208f4a945b29ac"
+  },
+  "schema_version": "1"
+}

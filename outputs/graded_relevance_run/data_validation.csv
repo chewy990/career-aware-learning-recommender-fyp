@@ -1,0 +1,9 @@
+dataset,check,status,details
+learner_profiles.csv,schema_ids_values_references,passed,11 rows validated
+relevance_judgements.csv,schema_ids_values_references,passed,11 rows validated
+relevance_judgements_graded.csv,schema_ids_values_references,passed,258 rows validated
+resource_modules.csv,schema_ids_values_references,passed,40 rows validated
+resources.csv,schema_ids_values_references,passed,96 rows validated
+skill_map.csv,schema_ids_values_references,passed,16 rows validated
+skill_sources.csv,schema_ids_values_references,passed,10 rows validated
+evaluation,profile_label_coverage,passed,11 profiles have positive and negative examples

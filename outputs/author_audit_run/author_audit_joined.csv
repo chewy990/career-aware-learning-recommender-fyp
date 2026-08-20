@@ -1,0 +1,41 @@
+audit_item_id,pathway,profile_id,resource_id,resource_title,current_label,author_label,agreement,reviewer_confidence,selection_reason,reviewer_notes
+A001,data_analyst,P001,R024,Dashboard Design Principles,1,1,1,3,recommended_relevant,
+A002,data_analyst,P007,R025,Google Data Analytics Foundations,1,1,1,2,recommended_relevant,this user already knows basic SQL
+A003,data_analyst,P001,R003,Excel Skills for Business,0,1,0,1,recommended_not_relevant,this user already has more than basic excel and basic data cleaning. doing the whole course just to learn dashboards is a waste.
+A004,data_analyst,P007,R003,Excel Skills for Business,0,1,0,3,recommended_not_relevant,
+A005,data_analyst,P007,R028,Power BI Dashboard Basics,1,1,1,2,relevant_not_recommended,"this user already has basic data visualisation, however, these skills can be reinforced."
+A006,data_analyst,P004,R029,Exploratory Data Analysis in Python,1,1,1,1,relevant_not_recommended,"if not for user's lack of python prerequisite, i am confident its relevant."
+A007,data_analyst,P004,R009,Machine Learning Model Evaluation,0,0,1,3,not_relevant_not_recommended,the pathway does not match given course at all.
+A008,data_analyst,P004,R012,Git and GitHub Crash Course,0,1,0,2,not_relevant_not_recommended,"the pathway does not match given course, however every technical professional generally benefits from version control and using Github."
+A009,data_engineer,P011,R072,freeCodeCamp Module Database Projects,1,1,1,1,recommended_relevant,"weaknesses does not match course skills taught. and user already has intermediate SQL. and databases, repeating them just to teach some programming would be a waste."
+A010,data_engineer,P011,R057,Build a REST API Project,1,1,1,3,recommended_relevant,"user already has intermediate knowledge of databases. however, these skills can be reinforced."
+A011,data_engineer,P011,R075,DataCamp Module Data Analyst Case Study,0,0,1,3,recommended_not_relevant,user already has knowledge of what the course teaches. its weaknesses are not addressed. user's pathway does not match given course.
+A012,data_engineer,P010,R022,Python Project Build a CLI App,0,0,1,3,recommended_not_relevant,pathway does not match course given.
+A013,data_engineer,P011,R039,MLOps Fundamentals,1,0,0,2,relevant_not_recommended,pathway does not match course given despite some overlapping skills.
+A014,data_engineer,P010,R048,Back End Development and APIs,1,1,1,3,relevant_not_recommended,
+A015,data_engineer,P010,R067,DataCamp Module Model Validation,0,0,1,3,not_relevant_not_recommended,pathway does not match course given.
+A016,data_engineer,P011,R017,Python for Data Visualisation,0,0,1,3,not_relevant_not_recommended,"pathway does not match course given, no skills covered. user also already has intermediate python, so doing 2 more irrelevant skills would not justify reinforcing python."
+A017,data_scientist,P008,R006,Pandas Data Cleaning Tutorial,1,1,1,3,recommended_relevant,
+A018,data_scientist,P009,R093,Mini Project Customer Churn Model,1,1,1,3,recommended_relevant,
+A019,data_scientist,P009,R094,Mini Project Deploy a Prediction API,1,1,1,3,relevant_not_recommended,
+A020,data_scientist,P008,R002,Intermediate SQL Queries,1,1,1,3,relevant_not_recommended,
+A021,data_scientist,P008,R074,freeCodeCamp Module Object Oriented JavaScript,0,0,1,3,not_relevant_not_recommended,pathway does not match course given.
+A022,data_scientist,P008,R052,Unit Testing in Python,0,0,1,3,not_relevant_not_recommended,pathway does not match course given.
+A023,data_scientist,P009,R096,Mini Project Version-Controlled CLI Tool,0,0,1,3,balanced_fallback,pathway does not match course given.
+A024,data_scientist,P009,R052,Unit Testing in Python,0,0,1,3,balanced_fallback,pathway does not match course given.
+A025,ml_engineer,P002,R093,Mini Project Customer Churn Model,1,1,1,2,recommended_relevant,user's model evaluation has a huge leap from 0 to 2. might not be ideal.
+A026,ml_engineer,P005,R039,MLOps Fundamentals,1,1,1,2,recommended_relevant,"user's deployment has a huge leap from 0 to 3, might not be ideal."
+A027,ml_engineer,P002,R010,Deep Learning Fundamentals,1,1,1,2,relevant_not_recommended,"user's machine learning has a huge leap from 1 to 3, might not be ideal."
+A028,ml_engineer,P005,R043,Flask for Model Serving,1,1,1,1,relevant_not_recommended,"user's machine learning and python is already at intermediate, and deployment has a huge leap from 0 to 2. however, skills are all relevant."
+A029,ml_engineer,P005,R092,Mini Project Build an Interactive Dashboard,0,0,1,3,not_relevant_not_recommended,pathway does not match course given.
+A030,ml_engineer,P005,R026,IBM Data Analyst Capstone,0,0,1,3,not_relevant_not_recommended,pathway does not match course given.
+A031,ml_engineer,P002,R043,Flask for Model Serving,1,1,1,3,balanced_fallback,
+A032,ml_engineer,P002,R059,Capstone Software Developer Portfolio,0,0,1,3,balanced_fallback,pathway does not match course given.
+A033,software_developer,P003,R095,Mini Project Build a Tested REST API,1,1,1,3,recommended_relevant,
+A034,software_developer,P003,R056,Software Engineering Principles,1,1,1,3,recommended_relevant,
+A035,software_developer,P006,R055,Database Clients and ORM Basics,0,1,0,1,recommended_not_relevant,pathway does not match course given despite similar skills.
+A036,software_developer,P006,R022,Python Project Build a CLI App,1,1,1,3,relevant_not_recommended,
+A037,software_developer,P003,R072,freeCodeCamp Module Database Projects,1,1,1,1,relevant_not_recommended,pathway does not match course given.
+A038,software_developer,P003,R004,Data Visualisation with Tableau,0,0,1,3,not_relevant_not_recommended,pathway does not match course given.
+A039,software_developer,P003,R048,Back End Development and APIs,0,1,0,3,not_relevant_not_recommended,
+A040,software_developer,P003,R029,Exploratory Data Analysis in Python,0,0,1,3,balanced_fallback,pathway does not match course given.

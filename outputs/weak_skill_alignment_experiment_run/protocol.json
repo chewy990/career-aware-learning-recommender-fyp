@@ -1,0 +1,23 @@
+{
+  "analysis_status": "adaptive_exploratory",
+  "changed_signal": "job_skill_alignment",
+  "decision_thresholds": {
+    "maximum_pathway_ndcg_at_5_drop": 0.03,
+    "maximum_readiness_rate_drop": 0.05,
+    "minimum_macro_ndcg_at_5_delta": 0.01,
+    "minimum_weak_case_mean_delta": 0.0
+  },
+  "hypothesis": "At the unchanged 0.15 weight, replacing broad pathway job-skill alignment with weighted coverage of declared weak skills that retain a positive gap improves graded NDCG@5.",
+  "independent_validation": false,
+  "primary_metric": "macro graded NDCG@5",
+  "unchanged": [
+    "all weights",
+    "all other signals",
+    "candidate eligibility",
+    "resource data",
+    "skill map",
+    "learner profiles",
+    "graded labels"
+  ],
+  "version": "1"
+}

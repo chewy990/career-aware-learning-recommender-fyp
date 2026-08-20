@@ -1,0 +1,6 @@
+{
+  "frozen_protocol": "docs/final_robustness_protocol.md",
+  "source": "outputs/readiness_gated_alignment_experiment_run/profile_differences_at_5.csv",
+  "stability_rule": "all eleven omitted-profile means remain positive",
+  "version": "1"
+}

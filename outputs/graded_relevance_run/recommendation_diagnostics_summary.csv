@@ -1,0 +1,10 @@
+model,k,profile_count,unique_resources_recommended,catalogue_size,catalogue_coverage,provider_exposure_count,format_exposure_count,provider_diversity,format_diversity,skill_gap_coverage,intra_list_diversity,difficulty_match_rate,prerequisite_validity_rate
+popularity,3,11,3,96,0.0312,1,1,0.3333,0.3333,0.4314,0.8333,0.9394,0.7576
+popularity,5,11,5,96,0.0521,2,2,0.4,0.4,0.5592,0.86,0.9273,0.8545
+popularity,10,11,10,96,0.1042,5,4,0.5,0.4,0.6981,0.83,0.9545,0.7455
+content_based,3,11,15,96,0.1562,5,3,0.8788,0.5152,0.5564,0.5813,0.9394,0.5455
+content_based,5,11,25,96,0.2604,7,4,0.8,0.3818,0.6071,0.5868,0.9455,0.6
+content_based,10,11,42,96,0.4375,9,5,0.4909,0.3,0.7381,0.6184,0.9545,0.6273
+hybrid,3,11,22,96,0.2292,7,4,0.7879,0.6667,0.5483,0.4964,1.0,0.9697
+hybrid,5,11,33,96,0.3438,9,4,0.6182,0.5818,0.6126,0.5451,1.0,0.9091
+hybrid,10,11,58,96,0.6042,10,5,0.4455,0.4182,0.6738,0.5767,1.0,0.8818

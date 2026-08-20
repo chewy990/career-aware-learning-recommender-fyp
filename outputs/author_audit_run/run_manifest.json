@@ -1,0 +1,54 @@
+{
+  "audit_type": "blinded_author_consistency_audit",
+  "author_audit_version": 1,
+  "code_files": {
+    "src/edu_recommender/label_audit.py": {
+      "sha256": "df7dd12f91ff5d3f7fdb79442904364a0c499c0958ed68fb4aec9d9a42d29a03"
+    },
+    "src/run_author_audit.py": {
+      "sha256": "dfd9514d561e67129424a9610be89beec02d582f416da06ef21583f20b4f85ef"
+    }
+  },
+  "configuration_fingerprint_sha256": "708f8155d2753511eec7c7c2e820ef4fc7bec58fc0f69afc54ee1d4e63bda64f",
+  "generated_at_utc": "2026-07-31T00:36:39.646550Z",
+  "input_files": {
+    "completed_author_export": {
+      "path": "outputs/author_audit_run/input/relevance_audit_completed.csv",
+      "sha256": "0bfe83cd40a58e44c03edc607aed943101e68d241ca520861d2570254677b316"
+    },
+    "generated_blinded_sheet": {
+      "path": "outputs/phase5_run/relevance_audit_blinded.csv",
+      "sha256": "2b6f2e835a87e2892dc408df9ae75ae6aa8f21126f75f3c0b87d908a705629bd"
+    },
+    "generated_hidden_key": {
+      "path": "outputs/phase5_run/relevance_audit_key.csv",
+      "sha256": "d53f576c3e87dff2623c8086f536807d8c5fc2272c30e55c9f78e0844cd4a784"
+    }
+  },
+  "manifest_filename": "run_manifest.json",
+  "output_files": {
+    "author_audit_disagreements.csv": {
+      "sha256": "6360553895f86334f88123810d4722de38658a578ba6fcdd2a2a476b1807447d"
+    },
+    "author_audit_joined.csv": {
+      "sha256": "9c8aefd0c1b906d6f6bc743ba695882427de7eb02e3528cf1785b2c358b80426"
+    },
+    "author_audit_summary.csv": {
+      "sha256": "6bcaadebbc9375af2c1a7e52ea43947c1665e1e99f14a57322cf2155c90f820e"
+    },
+    "author_audit_summary.md": {
+      "sha256": "6874f2cc070546420fa15b2affc932d082796382814ed0f3bd7d6103e022037f"
+    }
+  },
+  "python_version": "3.12.13",
+  "result": {
+    "agreement_count": 34,
+    "agreement_rate": 0.85,
+    "definite_count": 40,
+    "disagreement_count": 6,
+    "item_count": 40,
+    "uncertain_count": 0
+  },
+  "run_id": "708f8155d2753511",
+  "schema_version": 1
+}

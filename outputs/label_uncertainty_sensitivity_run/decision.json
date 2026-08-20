@@ -1,0 +1,8 @@
+{
+  "canonical_grades_modified": false,
+  "criterion": "gated-minus-production macro graded NDCG@5 stays positive",
+  "interpretation_limit": "Sensitivity to declared confidence shifts, not independent validation.",
+  "maximum_mean_difference": 0.0889,
+  "minimum_mean_difference": 0.0786,
+  "passed": true
+}

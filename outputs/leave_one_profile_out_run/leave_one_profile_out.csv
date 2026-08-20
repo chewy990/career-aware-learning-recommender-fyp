@@ -1,0 +1,12 @@
+omitted_profile_id,omitted_pathway,omitted_difference,retained_profile_count,leave_one_out_mean_difference,change_from_full_mean,direction_positive
+P001,data_analyst,0.145354,10,0.071937,-0.006674,True
+P002,ml_engineer,0.0,10,0.086472,0.007861,True
+P003,software_developer,0.074974,10,0.078975,0.000364,True
+P004,data_analyst,0.165508,10,0.069921,-0.00869,True
+P005,ml_engineer,0.0,10,0.086472,0.007861,True
+P006,software_developer,0.0,10,0.086472,0.007861,True
+P007,data_analyst,0.0,10,0.086472,0.007861,True
+P008,data_scientist,0.0,10,0.086472,0.007861,True
+P009,data_scientist,0.0,10,0.086472,0.007861,True
+P010,data_engineer,0.246879,10,0.061784,-0.016827,True
+P011,data_engineer,0.232007,10,0.063271,-0.01534,True
