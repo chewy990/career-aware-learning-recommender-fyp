@@ -36,7 +36,12 @@ class ApiArchitectureTests(unittest.TestCase):
         self.assertEqual(set(app.openapi()["paths"]), expected_paths)
 
     def test_api_import_loads_only_the_maintained_application(self) -> None:
-        command = "from api.main import app; assert app is not None"
+        command = (
+            "import sys; "
+            "from api.main import app; "
+            "assert app is not None; "
+            "assert 'streamlit' not in sys.modules"
+        )
         result = subprocess.run(
             [sys.executable, "-c", command],
             cwd=ROOT,

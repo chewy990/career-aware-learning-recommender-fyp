@@ -68,10 +68,16 @@ class SourceSizeTests(unittest.TestCase):
         self.assertEqual(undocumented, [])
 
 
-class ApplicationSurfaceTests(unittest.TestCase):
-    def test_react_and_fastapi_entry_points_exist(self) -> None:
-        self.assertTrue((ROOT / "src" / "api" / "main.py").is_file())
-        self.assertTrue((ROOT / "frontend" / "src" / "main.jsx").is_file())
+class DependencyBoundaryTests(unittest.TestCase):
+    def test_retired_interface_is_absent_from_maintained_source(self) -> None:
+        offenders = [
+            path.relative_to(ROOT).as_posix()
+            for path in (*SRC.rglob("*"), *(ROOT / "frontend" / "src").rglob("*"))
+            if path.is_file()
+            and path.suffix in SOURCE_SUFFIXES
+            and "streamlit" in path.read_text(encoding="utf-8-sig").casefold()
+        ]
+        self.assertEqual(offenders, [])
 
 
 class PublicPackageTests(unittest.TestCase):
