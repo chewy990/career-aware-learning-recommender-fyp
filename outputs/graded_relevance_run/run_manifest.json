@@ -102,7 +102,7 @@
       "sha256": "b4939bdfb19f38acf124107a9ca33b9d8eb52469cae3c98bd7599b8f55a8f8cf"
     },
     "src/edu_recommender/prerequisite_experiment/figures.py": {
-      "sha256": "41f0dc0160b161b8290791f6ce570904195175b60a50cec51ebeb42698e783ec"
+      "sha256": "f1cf33026992a2761c0fd60331406192567272960c1a9b434508d33ed2f59596"
     },
     "src/edu_recommender/prerequisite_experiment/findings.py": {
       "sha256": "41c0d7c1a6b69b71b29c8a986c16f3f58bfed2ecb831a08ab1adc49d41457b60"
@@ -243,7 +243,7 @@
       "sha256": "dda7f2b7653eebc9ae91ef643696831d0f57afb09cf0b903bc0207c23927b8dc"
     }
   },
-  "configuration_fingerprint_sha256": "56f49ea15feecb0d85490057927ab29b8c328c71df75755780e78d9eb5fd0ab4",
+  "configuration_fingerprint_sha256": "8f3acc3bd7c1a431e4b960cd2feaf2e95f33c3d38377d455db1231b91c35bd16",
   "eda_version": 1,
   "evaluation_version": 2,
   "failure_thresholds": {
@@ -253,7 +253,7 @@
     "provider_concentration_at_5": 0.6,
     "weak_skill_gap_coverage_at_5": 0.5
   },
-  "generated_at_utc": "2026-08-20T08:51:20.601965Z",
+  "generated_at_utc": "2026-09-02T21:16:14.485758Z",
   "input_files": {
     "learner_profiles.csv": {
       "rows": 11,
@@ -408,7 +408,7 @@
       "sha256": "45251766a80f7c04a0282a6657b22b3fa838177e46bcd0a5b2c17f4d8741bc6e"
     },
     "figures/prerequisite_experiment_paired_ndcg_at_5.png": {
-      "sha256": "9a3824533bcf87d63431da03847684b13e5ef526d6658d6c6a9b11ad8d8df5f1"
+      "sha256": "dc4d3e8ec0c2d191911cb31cf63cfb7b41bb4abae22bd743d71d57afffde16ba"
     },
     "figures/profiles_by_pathway.png": {
       "sha256": "25422b53a8462bce661f7184f0e9145feac8c283375efd2f1686ecd78df0568e"
@@ -580,7 +580,7 @@
   "random_seed": 42,
   "recommendation_cutoff": 10,
   "robustness_version": 1,
-  "run_id": "56f49ea15feecb0d",
+  "run_id": "8f3acc3bd7c1a431",
   "schema_version": 1,
   "seeded_configuration_count": 12,
   "seeded_multiplier_range": [

@@ -107,10 +107,16 @@ def _plot_paired_ndcg(
         if row["model"] == VARIANT_MODEL
         and int(row["k"]) == PRIMARY_K
     }
+    improvements = 0
+    ties = 0
+    declines = 0
     fig, axis = plt.subplots(figsize=(8.5, 6))
     for profile_id in sorted(baseline):
         before = baseline[profile_id]
         after = variant[profile_id]
+        improvements += after > before
+        ties += after == before
+        declines += after < before
         colour = (
             "#16A34A"
             if after > before
@@ -146,7 +152,7 @@ def _plot_paired_ndcg(
     axis.text(
         0.5,
         0.04,
-        "All 11 profiles have unchanged NDCG@5",
+        f"{improvements} improved, {ties} unchanged, {declines} declined",
         transform=axis.transAxes,
         ha="center",
         va="bottom",
