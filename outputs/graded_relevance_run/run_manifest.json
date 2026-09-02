@@ -30,7 +30,7 @@
       "sha256": "df62394d925dafa05bd97d61d89d13c0cd0390c5f106a5600536bc725edcef24"
     },
     "src/edu_recommender/eda/service.py": {
-      "sha256": "8540c4ec5acd5ba052edd7f9359c7bf590b8d54ac40bb82e476045f294fed1bd"
+      "sha256": "5c8bcb6801aa2cf66848cc92a20f96b43343677193bce7a3a52200a2e3bc5b3b"
     },
     "src/edu_recommender/eda/tables.py": {
       "sha256": "2d23922a0c51817eb264257ee408b2c2b93bcd9494c68da9539cb909676ec852"
@@ -39,13 +39,13 @@
       "sha256": "5e61cf1ff6b6f553289d866c4871cf9e63a6d72cbb0543f950ea113debacd2a2"
     },
     "src/edu_recommender/evaluation/contracts.py": {
-      "sha256": "d61d345a8905d07a8eb74313a12a81745c297def51d4c66cfb72494e07e2ee79"
+      "sha256": "794dcb7b6b9aefb68b0b83a73c810b125b0ca2687548f8606e874b84ca1b8f31"
     },
     "src/edu_recommender/evaluation/diagnostic_figures.py": {
       "sha256": "3bdbffc2744dbd233bf933977e65dc554ccc878f0de90dc589ab1c5a91f66a1c"
     },
     "src/edu_recommender/evaluation/diagnostics.py": {
-      "sha256": "86a11c6471a9931491eaa78fc9b60f2949b384c81fdbe47d55cef52554a17d29"
+      "sha256": "8401f5dcb90731f23a21d760d1cb22f34d659cfdef91e9c9b55810c7b32e667b"
     },
     "src/edu_recommender/evaluation/drawing.py": {
       "sha256": "0e032c4755979a637f0e9e7b871d6860335a5cb05b30efe35b852aee3d318bb7"
@@ -54,25 +54,25 @@
       "sha256": "92e12a3dbe0b77e0bab2802f9954c2dcbd26bb19947071a2f9a4b0be46c17f75"
     },
     "src/edu_recommender/evaluation/findings.py": {
-      "sha256": "947ea3035891b025415d32ab0f004e497d6ab41a135c01b2eea9f5ae56b81d43"
+      "sha256": "07435c63cd7e157849dc8405027f8a5963c199f13a4329a69f912ef0eac4d85f"
     },
     "src/edu_recommender/evaluation/metric_figures.py": {
       "sha256": "ddd5de69a37cee17cbc78e1c6f8e81e33163c13a21568107752e9716c3aea84b"
     },
     "src/edu_recommender/evaluation/metrics.py": {
-      "sha256": "ddb79a27388bb76ce0f52103d642a654c6dcea5be5937b27ce64ea5bc833fedb"
+      "sha256": "acce8f560a81fc30c169534151b7cd129e0198bfa24f6ee227b8a0f5e9b4aefb"
     },
     "src/edu_recommender/evaluation/ranking_metrics.py": {
-      "sha256": "16c0265073221b88817b8d2f2c227dd97b0edae82a8b9661b5e20cb2beeb9755"
+      "sha256": "57488de55dc59e5c37cca398a5fd261483c8aba1d27edec682a14b9ca8b60631"
     },
     "src/edu_recommender/evaluation/reporting.py": {
-      "sha256": "2012cc750c596e7c82aacf19037ea52eed86be7cef9de85ef243295fa342af20"
+      "sha256": "50f28aed684201cd618da75795ab54d4f4d8a0ac7069ba26f3d0057e1ffbeb9a"
     },
     "src/edu_recommender/evaluation/service.py": {
-      "sha256": "7a3726dafe62ebebb4d96037e958590de744c1455f912c88c0f5231d5ca8ca71"
+      "sha256": "b58afb5e92c4d876094ba72afed6c6e9ffdbc0aa1a689e7785d16ffef948b4dd"
     },
     "src/edu_recommender/evaluation/uncertainty.py": {
-      "sha256": "3b8c2dbc9091aa66f42de15c0d8b45865281ff534854dc867a820342c1c234ec"
+      "sha256": "22eea6be09e1cc5cd5c4cb315cf0c51150565d5d0e1216dde88e5672642c8eb4"
     },
     "src/edu_recommender/models/__init__.py": {
       "sha256": "7a505cb6d8bd6adeaa084b59851de959367d71a317fdd1494a75646a10026774"
@@ -84,7 +84,7 @@
       "sha256": "77b9a11a5833301b5fa3adc470c6570c1942e5bcd0ea31d1eb2ba5bc77f573a1"
     },
     "src/edu_recommender/models/suite.py": {
-      "sha256": "bd2d8304f0fa75999b996374c6b909249a3e265e8c7035f78f2e36be21cf5e99"
+      "sha256": "8b88aed4360a13bb1532c1e223fba72c40970fcd95c9655906f517ac54990019"
     },
     "src/edu_recommender/models/text_features.py": {
       "sha256": "74a0a8c8b1799b8c1b949df4af2c6644abc83cdeaf683e42358d936d941b33fb"
@@ -93,76 +93,76 @@
       "sha256": "77a004bbb760a5ddc64dca2f0b4a0c3ef2c4cc500f5fbaaa1030d6217ef81fa1"
     },
     "src/edu_recommender/prerequisite_experiment/contracts.py": {
-      "sha256": "ba74f8930af0eb6de93609b24f7e9eff8cb2e4b1d5fe6cb5ba00e6623a0669de"
+      "sha256": "d9fc30190a3b0b6d2b5f19fc3dcc6c9f98e8aa41c09e545f4fade40b8e30c9be"
     },
     "src/edu_recommender/prerequisite_experiment/diagnostics.py": {
-      "sha256": "ec8fc62e78279d4f5287038ee4b019edf43cc0cdb68d92b1f335ac6d64787b9d"
+      "sha256": "2d16db25e920d5262074abcd23273e271753469d3ef409684fede69224dd0fc8"
     },
     "src/edu_recommender/prerequisite_experiment/eligibility.py": {
-      "sha256": "b4939bdfb19f38acf124107a9ca33b9d8eb52469cae3c98bd7599b8f55a8f8cf"
+      "sha256": "0963aa64da3f61f14271f459ca3dff05ac019153a6270774a48d2d29b0769dda"
     },
     "src/edu_recommender/prerequisite_experiment/figures.py": {
-      "sha256": "f1cf33026992a2761c0fd60331406192567272960c1a9b434508d33ed2f59596"
+      "sha256": "41f0dc0160b161b8290791f6ce570904195175b60a50cec51ebeb42698e783ec"
     },
     "src/edu_recommender/prerequisite_experiment/findings.py": {
-      "sha256": "41c0d7c1a6b69b71b29c8a986c16f3f58bfed2ecb831a08ab1adc49d41457b60"
+      "sha256": "af82b96982d9fe1e91ae3c6c5eaf82d1bf020e72825a08b398552f1529375682"
     },
     "src/edu_recommender/prerequisite_experiment/paired_comparison.py": {
-      "sha256": "e778d98a02416317063f57d5f942010cf8a3d4dca2f1eadee24d69406e763fe6"
+      "sha256": "f11a567a9d1916bbdc70412605e79c69867f3e51739f0953eec2eb95520d8589"
     },
     "src/edu_recommender/prerequisite_experiment/profile_changes.py": {
-      "sha256": "d9b464888f36d78879bbf983c06d5fa24dfa4ab9c2ef95a504a8512e5886ff4a"
+      "sha256": "e4c96e8d3df76af44a5f9b9c52ee4d2aca5513eb6358657cc474a45735ffbd6d"
     },
     "src/edu_recommender/prerequisite_experiment/reporting.py": {
-      "sha256": "96ad484a18dd1805aaec8f292f14ace962b2e91c1f1af612c08fd455ee100e1b"
+      "sha256": "cd1f77c0fa50a254a5da79dde8d392dda03010d7a3e9837c39051e629e132e3c"
     },
     "src/edu_recommender/prerequisite_experiment/service.py": {
-      "sha256": "45a885e1f29af1537b9ef6b2bfd72ec5078273cd95cb177be1ad2198fc150be3"
+      "sha256": "5abc3e2e74712998674b3c6ea7a16cc2a10534d70225aadcae330603354ee15d"
     },
     "src/edu_recommender/prerequisite_experiment/targeted_audit.py": {
-      "sha256": "400fc646442c3f387d3dd3cde4a418c1b48b0579dc6a9a1de4ab003bdecd7a72"
+      "sha256": "ea227bbcf91a651b1440e9a79c7c0b5636fe99ac9622ae4a271b909098529914"
     },
     "src/edu_recommender/robustness/__init__.py": {
       "sha256": "d7f6a4fa76da2b9405eaf0eaca9726111d1122d448dc63f7741af4ffbc84f08f"
     },
     "src/edu_recommender/robustness/ablation.py": {
-      "sha256": "f4d819d1c489606e2e09f93febeac4b043625cdf5516e0b13afb09455543441d"
+      "sha256": "9eb8715fd795c5df97896a590b3edb96d6ca777397e2bb4a3a26eb565a092a15"
     },
     "src/edu_recommender/robustness/contracts.py": {
-      "sha256": "93ece0d6c43e02af70194cc3568e719f2237e5a7610677e0452c52b080c91834"
+      "sha256": "75c866d9b382f05f0bb22273d3117167402c329d111c6e891e1d75459a082bd7"
     },
     "src/edu_recommender/robustness/contributions.py": {
-      "sha256": "8e6b6a0509ad73e8d26370d6e58adb5d04ef91ddb746c22e2b7c39f10728cb04"
+      "sha256": "94dee7e3ca56d673fad984a0daeff0c5a0e6fcf05e205c768d6a9a52dfabb60c"
     },
     "src/edu_recommender/robustness/failures.py": {
-      "sha256": "87cdbe47861a584ffcc774d58d0ae4d2812acd0f5b396d845208f4b2deb67735"
+      "sha256": "5127911e5c230c7abe2f36d053b4763f5fe76388d44eefd4d15441f081d39127"
     },
     "src/edu_recommender/robustness/figures.py": {
       "sha256": "8b7a7679fc12c0f39360ce9cfd87838f96bc45d47b29df5b76ea93d273edda79"
     },
     "src/edu_recommender/robustness/findings.py": {
-      "sha256": "fa44c98d9bc5886f09aa6685e246d24e66dd11b94466e8b811211f8f3861c874"
+      "sha256": "66fd63f8dcd1da5ae698382e3287acae82bbd90020a8555d27f75a677be4d331"
     },
     "src/edu_recommender/robustness/recommendations.py": {
-      "sha256": "1172863d2467e762ff50679893bfc98357efab3a933c3651eab32050cff90ba0"
+      "sha256": "dbb1f429422589f7b0fe3aa4b673b2df3d204a2266d4a16fb5933c816630ea07"
     },
     "src/edu_recommender/robustness/reporting.py": {
-      "sha256": "6768f59e4fbb0925c6f38ecd79672f9c5a4f7de92e811fe04d5d6d2e7d1b507d"
+      "sha256": "125e945a43627157c3b4ad15579008ec4ec5acedaf764829eb54a0bd7d3b1924"
     },
     "src/edu_recommender/robustness/seeded_configurations.py": {
-      "sha256": "6330a3e77d914fd9f4a486f3a4dd49d21da17ba40054358f936b3f236753b316"
+      "sha256": "68940366e738d728619d25a6ebec5d595ee166a1e1a6a0e79acee0db9fd2abcb"
     },
     "src/edu_recommender/robustness/sensitivity.py": {
-      "sha256": "8a05ed9a240fc68e9f33c8a3b2a70556fcbb96f73822f287cfc38a4fe3a099d4"
+      "sha256": "17ed779d31fe78d2c2bbde3bbc0e660b498750bc2e14a082b9cd7896698d1592"
     },
     "src/edu_recommender/robustness/service.py": {
-      "sha256": "3d30d927f2e7ec2364bb80d841ce1c0b437fa7fd83c2c2c52c4f00283eef57ba"
+      "sha256": "e70898017482042663c3c61c0734802ccb80ff4de7da8ee29e18f79d0f442c7e"
     },
     "src/edu_recommender/statistical_comparison/__init__.py": {
       "sha256": "7b69665fa3465e88bd301f1e44f7b86481d864f95fb5181b842ee88b05c7761c"
     },
     "src/edu_recommender/statistical_comparison/contracts.py": {
-      "sha256": "fbfc4fdc2c679ed671691e088c4cee1e2f07fbe0464de81b457a4d36ae5b05b2"
+      "sha256": "16031a4b124ce1812c261c43f41ea9c0332b17b8ffbb5fd5a3bccb1cc2d49e1a"
     },
     "src/edu_recommender/statistical_comparison/drawing.py": {
       "sha256": "934b4653d7b5dc35fe4c728d4e48067a03a2fedbf3b67163b5ef3b87e49f3db4"
@@ -171,28 +171,28 @@
       "sha256": "b4826262fa801544cfde89a8e1576178a38a7afbc16fda9f163833fdfbf1560f"
     },
     "src/edu_recommender/statistical_comparison/findings.py": {
-      "sha256": "de37fc3dc31622c1175cb493ecef7c424a20a76f7b7a1a7ae3cc691d6b9959fa"
+      "sha256": "c0652eeab1c98535f05e11765a21ae19f482531218559b865d3f2812ca9ef581"
     },
     "src/edu_recommender/statistical_comparison/label_audit.py": {
-      "sha256": "c2afd448f58819a67797057231750a2d37ad2f79cdf01149fa0e4db365a1b5d1"
+      "sha256": "d8e6f9a424745d9efa16ae5bf9fac116057ef7f1b529f1883dfc50d7298dd9c4"
     },
     "src/edu_recommender/statistical_comparison/paired_comparison.py": {
-      "sha256": "56ab6597bd5c2f99c68ae41bf2a0bae831ef2d5cd85d9903028dd671e88387c4"
+      "sha256": "335efc4446f00b880bb5235711b8ed6e5c5c3dd5425607f11bb261bb7fc7f652"
     },
     "src/edu_recommender/statistical_comparison/paired_figures.py": {
       "sha256": "cddecd9cf3a77f709d01b90dc5e2b93670c366326ea18b6ef413a70f462198a7"
     },
     "src/edu_recommender/statistical_comparison/reporting.py": {
-      "sha256": "3efc9da3d7abc3bb791a16aefd27436bf4041dd0a9653f1e17d6f5b22885552e"
+      "sha256": "740ba5c97095ca5a435605760a13070dd7d2c100a77da542ba2eb864e9c7ca69"
     },
     "src/edu_recommender/statistical_comparison/service.py": {
-      "sha256": "2988d718f54189e117c2ad1b36fba83458cabddcab6ae26a817bc6c8dd9ba787"
+      "sha256": "9f0060da260aae67dc597fb5f2c70856c485ed1ddc207298ba20c2cc06f201da"
     },
     "src/edu_recommender/statistical_comparison/significance_figures.py": {
       "sha256": "2f0de7e6dd757fd55833d9b60d7e106a11e116d90143f7ed6ed1a2a5eedcb83e"
     },
     "src/edu_recommender/statistical_comparison/tests.py": {
-      "sha256": "d71bab6b12ac1128d8638ed051babd43ad97eb669b8c3d2e693d6832cc877aa2"
+      "sha256": "5f741249830d14b25c3a09ced45d52bf8a118386ac9bac2d087963e28ef2f286"
     },
     "src/edu_recommender/text.py": {
       "sha256": "b8f3d5d088f5689e7ad576cf18c3188ce949f70ba2baa0129a2a9baa09aea2b9"
@@ -201,16 +201,16 @@
       "sha256": "4e53e7849ed1e6004d67251e7351243fc53a13a35a6a51dd77ec52a21845ecec"
     },
     "src/edu_recommender/validation/contracts.py": {
-      "sha256": "7bf15007f3ad13e10b34a5016bfced4e70d8cccbd308a577e6f23ff3e6a6ef65"
+      "sha256": "a5ba7b2ec75930a69656a00279ba7ff7a5a8a2ba460e2fa0176fab4cc80b3a24"
     },
     "src/edu_recommender/validation/dataset_validators.py": {
-      "sha256": "d8683fc1a2fcb7436af014b98fa05a564d09c8917a0ab366bbc3fe9d5f1be0d8"
+      "sha256": "88b50b2abf0eb99dce2438e8468a41b623e715f8d6df5dac3a127819151d9560"
     },
     "src/edu_recommender/validation/parsing.py": {
       "sha256": "5827ab1f7be5004deae17939c71ff53342a929597b5fdb1090373934d82e5718"
     },
     "src/edu_recommender/validation/reference_checks.py": {
-      "sha256": "32b4f3b1eaaff41872f0d7f56866fdc3c4fd725eb0490ef50958e271a513c8c4"
+      "sha256": "b94d9719dc22cc568dd30c6d713eec28dc23d599de1881d78fa0b83c523623ed"
     },
     "src/edu_recommender/validation/schemas.py": {
       "sha256": "37a03e01bf41389f57a626db4838cfeabacf9cfb134d3c9db311bef191fc7a34"
@@ -222,7 +222,7 @@
       "sha256": "d695ae0012d46566566e976fad38134eb41f9f3ed09251f85390a537c9aab441"
     },
     "src/pipeline/config.py": {
-      "sha256": "22f73f83df1d27f82160cf227d937a9af49399ec3239c50e08cf15f6748ba0d5"
+      "sha256": "90e8175a8c8048c5abe246c9a92897952b94a5e5da31e3e198eda2dac2cc36e2"
     },
     "src/pipeline/html_components.py": {
       "sha256": "71488b34bc0a6a53d747610b8a53e206cb9825f4b45f842dd655edf65eedd9e5"
@@ -240,10 +240,10 @@
       "sha256": "11140fef1aa99b98cbc3f814b1886628dea6e22e4bb1889376809ad78a5e2be7"
     },
     "src/run_pipeline.py": {
-      "sha256": "dda7f2b7653eebc9ae91ef643696831d0f57afb09cf0b903bc0207c23927b8dc"
+      "sha256": "e645162d6f0bcbd850596d145ba32b76f48d4feb01d4bd3a8241f8fbe5326e8b"
     }
   },
-  "configuration_fingerprint_sha256": "8f3acc3bd7c1a431e4b960cd2feaf2e95f33c3d38377d455db1231b91c35bd16",
+  "configuration_fingerprint_sha256": "3c4becb09f065b31c0cbbf69cc702ac7f7e4c3099c746151c991d14a6b1479a7",
   "eda_version": 1,
   "evaluation_version": 2,
   "failure_thresholds": {
@@ -253,7 +253,7 @@
     "provider_concentration_at_5": 0.6,
     "weak_skill_gap_coverage_at_5": 0.5
   },
-  "generated_at_utc": "2026-09-02T21:16:14.485758Z",
+  "generated_at_utc": "2026-08-13T07:20:13.604487Z",
   "input_files": {
     "learner_profiles.csv": {
       "rows": 11,
@@ -269,11 +269,11 @@
     },
     "resource_modules.csv": {
       "rows": 40,
-      "sha256": "72733f34937a9a5c55a4df592033e8b34d78b4012537b7ba96845a424124f3a3"
+      "sha256": "775541176b7823736b0a1be3a780e253e12882174261c8f8bdbca1e89a5ac966"
     },
     "resources.csv": {
       "rows": 96,
-      "sha256": "84cdb27d0c0810295bc7f81e5e928bb7f1a11afc7df98357b381797b32132481"
+      "sha256": "6d80588f67fe3701536e89c15f2bc23c17786aa7de777565e2490feb29717e60"
     },
     "skill_map.csv": {
       "rows": 16,
@@ -281,7 +281,7 @@
     },
     "skill_sources.csv": {
       "rows": 10,
-      "sha256": "35533df9e62d5596e8e802d7d0a03eee8bf1ce7245553860ac9273233135109f"
+      "sha256": "97d4c8c0bce8c6768f055de3ef511141c779e10281ef6a4dafea119eba77438a"
     }
   },
   "k_values": [
@@ -580,7 +580,7 @@
   "random_seed": 42,
   "recommendation_cutoff": 10,
   "robustness_version": 1,
-  "run_id": "8f3acc3bd7c1a431",
+  "run_id": "3c4becb09f065b31",
   "schema_version": 1,
   "seeded_configuration_count": 12,
   "seeded_multiplier_range": [
