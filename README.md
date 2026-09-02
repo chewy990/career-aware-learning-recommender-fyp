@@ -96,9 +96,11 @@ cd frontend
 npm run build
 ```
 
-The committed final evidence is under `outputs/graded_relevance_run/`. The
-smaller experiment directories record the final label-sensitivity,
-leave-one-profile-out, counterfactual and weak-case checks.
+The committed final graded evidence is under `outputs/graded_relevance_run/`.
+The preceding binary-label evidence is preserved under
+`outputs/labels_revision_run/`. The smaller experiment directories record the
+final label-sensitivity, leave-one-profile-out, counterfactual and weak-case
+checks.
 
 ## Scope
 

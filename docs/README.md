@@ -14,5 +14,7 @@ the final implementation and evaluation.
 - `final_robustness_protocol.md` freezes the final sensitivity checks.
 
 The final generated evidence referenced by these documents is stored under
-`outputs/`. Preliminary reports, revision trackers and historical duplicate runs
-are deliberately absent from this examiner-facing repository.
+`outputs/`. The `labels_revision_run` archive preserves the binary-label result
+used for comparison with the final graded evaluation. Preliminary reports,
+revision trackers and historical duplicate runs are deliberately absent from
+this release repository.
