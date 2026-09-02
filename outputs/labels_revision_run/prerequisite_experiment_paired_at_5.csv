@@ -1,0 +1,4 @@
+metric,k,profile_count,mean_difference,median_difference,sample_stddev_difference,ci_95_lower,ci_95_upper,standardized_effect_dz,effect_magnitude,variant_wins,ties,variant_losses,exact_permutation_p,exact_permutation_holm_p,wilcoxon_w_plus,wilcoxon_p,wilcoxon_holm_p,holm_significant_at_0_05,bootstrap_replicates,random_seed
+precision_at_k,5,11,0.0,0.0,0.0,0.0,0.0,0.0,negligible,0,11,0,1.0,1.0,0.0,1.0,1.0,False,10000,42
+recall_at_k,5,11,0.0,0.0,0.0,0.0,0.0,0.0,negligible,0,11,0,1.0,1.0,0.0,1.0,1.0,False,10000,42
+ndcg_at_k,5,11,0.0,0.0,0.0,0.0,0.0,0.0,negligible,0,11,0,1.0,1.0,0.0,1.0,1.0,False,10000,42

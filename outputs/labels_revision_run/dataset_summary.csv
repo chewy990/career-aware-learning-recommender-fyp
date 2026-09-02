@@ -1,0 +1,7 @@
+dataset,row_count,purpose
+resources.csv,96,Learning-resource catalogue
+resource_modules.csv,40,Verified module and source metadata
+skill_map.csv,16,Pathway skill requirements
+learner_profiles.csv,11,Fixed evaluation profiles
+relevance_judgements.csv,11,Curated evaluation labels
+skill_sources.csv,10,Skill-map evidence sources

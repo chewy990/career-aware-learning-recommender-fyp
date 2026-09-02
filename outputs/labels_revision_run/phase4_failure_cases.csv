@@ -1,0 +1,18 @@
+failure_type,profile_id,pathway,resource_id,rank,severity,observed_value,threshold,details
+format_concentration_at_5,P001,data_analyst,,,low,0.8,0.8,course accounts for 4 of the top five resources.
+format_concentration_at_5,P005,ml_engineer,,,low,0.8,0.8,course accounts for 4 of the top five resources.
+low_ndcg_at_5,P010,data_engineer,,,high,0.6399,0.8,Relevant resources are not consistently near the top five.
+low_recall_at_5,P010,data_engineer,,,medium,0.1154,0.15,The top five retrieve less than 15% of the curated relevant set.
+low_recall_at_5,P011,data_engineer,,,medium,0.1379,0.15,The top five retrieve less than 15% of the curated relevant set.
+prerequisite_invalid,P003,software_developer,R095,4,high,0.0,1.0,Missing prerequisite(s): apis
+prerequisite_invalid,P003,software_developer,R055,5,high,0.0,1.0,Missing prerequisite(s): sql
+prerequisite_invalid,P008,data_scientist,R044,2,high,0.0,1.0,Missing prerequisite(s): statistics
+prerequisite_invalid,P008,data_scientist,R023,4,high,0.0,1.0,Missing prerequisite(s): statistics
+prerequisite_invalid,P008,data_scientist,R093,5,high,0.0,1.0,Missing prerequisite(s): machine_learning
+provider_concentration_at_5,P001,data_analyst,,,low,0.6,0.6,Coursera supplies 3 of the top five resources.
+provider_concentration_at_5,P002,ml_engineer,,,low,0.6,0.6,Kaggle Learn supplies 3 of the top five resources.
+provider_concentration_at_5,P004,data_analyst,,,low,0.6,0.6,Coursera supplies 3 of the top five resources.
+provider_concentration_at_5,P005,ml_engineer,,,low,0.6,0.6,DataCamp supplies 3 of the top five resources.
+provider_concentration_at_5,P008,data_scientist,,,low,0.8,0.6,Kaggle Learn supplies 4 of the top five resources.
+provider_concentration_at_5,P009,data_scientist,,,low,0.6,0.6,Kaggle Learn supplies 3 of the top five resources.
+weak_skill_gap_coverage_at_5,P005,ml_engineer,,,medium,0.3846,0.5,The top five cover less than half of weighted skill gaps.

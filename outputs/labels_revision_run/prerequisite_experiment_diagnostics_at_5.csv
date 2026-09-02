@@ -1,0 +1,3 @@
+model,k,profile_count,unique_resources_recommended,catalogue_size,catalogue_coverage,provider_exposure_count,format_exposure_count,provider_diversity,format_diversity,skill_gap_coverage,intra_list_diversity,difficulty_match_rate,prerequisite_validity_rate
+hybrid,5,11,33,96,0.3438,9,4,0.6182,0.5818,0.6126,0.5451,1.0,0.9091
+hybrid_hard_prerequisites,5,11,37,96,0.3854,10,5,0.6545,0.6182,0.5956,0.5572,1.0,1.0
