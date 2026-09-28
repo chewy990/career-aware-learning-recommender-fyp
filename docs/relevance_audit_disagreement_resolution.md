@@ -23,8 +23,8 @@ label and one retained the existing label.
 | A035 | P006 | R055 Database Clients and ORM Basics | `0` | Accept | `1` | lowest |
 | A039 | P003 | R048 Back End Development and APIs | `0` | Accept | `1` | medium |
 
-Five labels in `data/relevance_judgements.csv` require revision: four move from
-`0` to `1` and one moves from `1` to `0`. Affected profiles are P001, P003,
+Five labels in `data/relevance_judgements.csv` were revised: four moved from
+`0` to `1` and one moved from `1` to `0`. Affected profiles are P001, P003,
 P006, P007, and P011.
 
 ### Interpretation Of The Outcome
@@ -50,13 +50,13 @@ accepted despite scope, prerequisite, or duration mismatches. A008 and A013 were
 resolved as not relevant on genuine topical grounds - general professional
 benefit and wrong subject orientation respectively.
 
-## How To Use
+## Reading The Record
 
 - **Retain** keeps the existing label in `data/relevance_judgements.csv`.
 - **Accept** adopts the author-audit label instead.
-- Fill in **Final decision** and **Decision reason** for all six cases.
-- Nothing in this file edits data. Label changes happen only after approval,
-  as a separate, versioned dataset revision.
+- **Final decision** and **Decision reason** are recorded for all six cases.
+- The case tables and proposed recommendations preserve the pre-revision
+  evidence. The final decisions were applied in the approved dataset revision.
 
 ## Standing Interpretation Rules
 
@@ -69,14 +69,14 @@ benefit and wrong subject orientation respectively.
   duration limits) belong to ranking and eligibility, not to the label. Several
   cases below turn on exactly this distinction.
 
-## Downstream Impact Warning
+## Downstream Impact Check
 
 Profiles **P003** and **P008** are the two profiles whose top-five
 recommendations change under the hard-prerequisite eligibility experiment. Case
-**A039** concerns P003. Accepting it would change P003's relevance set and can
-therefore alter the experiment's current result of 11 ties and adjusted exact
-`p=1.000000` at K=5. Re-run the experiment after any accepted label change and
-do not reuse the existing figures or claims.
+**A039** concerns P003. Its accepted label change required the experiment to be
+re-run. The revised binary-label run preserved 11 ties and adjusted exact
+`p=1.000000` at K=5. The later graded evaluation is recorded separately in
+`outputs/graded_relevance_run/`.
 
 ---
 
@@ -317,8 +317,8 @@ difficulty matched, and highest reviewer confidence. The duration and format
 mismatch is handled by the existing scope penalty in ranking, not by the label.
 
 **Note:** P003 is one of the two profiles affected by the hard-prerequisite
-experiment. Accepting this case requires re-running that experiment and
-revalidating its tie result before any of its figures or claims are reused.
+experiment. The experiment was re-run after this decision, and the binary-label
+tie result was revalidated in `outputs/labels_revision_run/`.
 
 **Final decision:** **ACCEPT `1`** - change the label from `0` to `1`.
 Recorded 31 July 2026.
@@ -339,15 +339,19 @@ rather than a relevance disqualifier. Decision confidence is medium.
 |---|---|
 | Decisions approved by | Jaslyn Chan (project author) |
 | Date approved | 31 July 2026 |
-| Dataset revision required | Yes - five label changes |
+| Dataset revision applied | Five label changes on 31 July 2026 |
 
 ## Applied - 31 July 2026
 
 The five accepted changes were applied to `data/relevance_judgements.csv` and
 the affected evidence was regenerated in a verified revision run
 (`5a8bcd616d43cab5`; all 162 hashes verified, byte-identical across two
-runs apart from the manifest). Steps 1 to 4 below are complete; step 5, the
-report update, is outstanding.
+runs apart from the manifest). The revised binary evidence is preserved in
+`outputs/labels_revision_run/`. The final report dated 10 September 2026 includes
+the revised binary comparison, final graded evaluation, and run provenance.
+
+The results below describe the historical binary-label revision. The final
+graded results are preserved separately in `outputs/graded_relevance_run/`.
 
 ### What Changed
 
@@ -401,33 +405,25 @@ remaining measurable signal is concentrated in Data Engineer. This strengthens
 the existing argument that the curated evaluation set is too small and too easy
 to support strong generalisation claims.
 
-## Remaining Work
+## Completion And Final Evidence
 
-Steps 1 to 4 are complete. Step 5 is outstanding.
+The label revision, pipeline rerun, prerequisite comparison, and report update
+are complete. This record preserves all six decisions and their reasons.
 
-1. Apply the five accepted changes to `data/relevance_judgements.csv` as an
-   explicit, recorded **relevance-label revision**. Never edit historical
-   phase-run directories or manifests, and keep the original labels recoverable
-   for comparison.
+1. The five accepted label changes were applied without changing resource,
+   module, skill-map, or learner-profile rows as part of this revision.
+2. Evaluation, robustness, and statistical comparisons were regenerated in
+   `outputs/labels_revision_run/`, preserving the revised binary evidence.
+3. The hard-prerequisite experiment was re-run against the corrected labels.
+   Its binary K=5 tie result remained unchanged.
+4. Section 5.6 of the final report compares binary hybrid NDCG@5 `0.9540` with
+   graded NDCG@5 `0.8078`. Appendix A identifies the preserved revision run
+   `5a8bcd616d43cab5` and distinguishes archived output integrity from matches
+   against current source and input files.
+5. Subsequent bounded refinement experiments and final robustness checks are
+   documented in `docs/graded_refinement_experiments.md` and
+   `docs/final_robustness_protocol.md`. The production hybrid remains unchanged.
 
-   Scope note: this is a correction to relevance labels only. It is **not** the
-   catalogue "dataset version 2" contemplated in the Phase 4 decision, which
-   would add or change resources, modules, or profiles. No resource, module,
-   skill-map, or profile row changes here. Keep the two revisions distinct in
-   the report, because they rest on different justifications.
-2. Re-run the full pipeline into a new output directory. Confirm validation
-   passes and that two unchanged runs stay byte-identical.
-3. Re-run the hard-prerequisite experiment. A039 changes P003, one of the two
-   profiles whose top-five list the experiment alters, so its current result of
-   11 ties and adjusted exact `p=1.000000` at K=5 is no longer valid evidence
-   until regenerated.
-4. Expect Phase 3, 4, and 5 results to move. Every metric is measured against
-   these labels, so evaluation, robustness, and statistical-comparison outputs
-   must be regenerated rather than reused.
-5. Record the six decisions, corrected labels, regenerated results, and
-   interpretation limits in the project report.
-6. Only then evaluate the Phase 6 entry gate.
-
-Until steps 1 to 5 are complete, the currently committed phase-run artifacts
-remain the valid evidence for the original labels and must not be described as
-reflecting the corrected dataset.
+The final graded evaluation supersedes the binary evaluation for
+ordering-sensitive results. Historical binary results remain preserved for
+comparison and must not be presented as the final graded scores.
